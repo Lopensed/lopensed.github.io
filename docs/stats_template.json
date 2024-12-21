@@ -1,0 +1,62 @@
+{
+  "tournaments": {
+    "TournamentName": {
+      "winners": "Team Name",
+      "games": {
+        "Rocket Spleef Rush": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "Team Name",
+          "players": [
+            {
+              "name": "Player1",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": []
+              }
+            },
+            {
+              "name": "Player2",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

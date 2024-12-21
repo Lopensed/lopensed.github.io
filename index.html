@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View tournament statistics and leaderboards for Floggerz tournaments">
+    <meta name="theme-color" content="#161b22">
+    <meta name="robots" content="index, follow">
+    
+    <title>Floggerz Stats - Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- PWA support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+    <!-- Skip navigation for accessibility -->
+    <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
+
+    <header class="main-header" role="banner">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="index.html" aria-label="Floggerz Stats Home">Floggerz Stats</a>
+            </h1>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active" aria-current="page">Leaderboard</a></li>
+                    <li><a href="hof.html">Hall of Fame</a></li>
+                    <li><a href="navigation.html">Navigation</a></li>
+                </ul>
+            </nav>
+            <button id="modeToggle" 
+                    class="mode-toggle" 
+                    aria-label="Toggle color theme"
+                    data-current-mode="dark">
+                <span class="mode-toggle-text">Switch to Light Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content" class="content-container" role="main">
+        <section id="controls" class="controls-section" aria-label="Leaderboard filters">
+            <div class="search-container">
+                <div class="search-field">
+                    <label for="searchInput" class="visually-hidden">Search players or teams</label>
+                    <input type="search" 
+                           id="searchInput" 
+                           class="search-input"
+                           placeholder="Search players or teams..." 
+                           autocomplete="off"
+                           aria-label="Search">
+                    <span class="search-icon" aria-hidden="true"></span>
+                </div>
+            </div>
+            
+            <div class="filters" role="group" aria-label="Leaderboard filters">
+                <div class="filter-group">
+                    <label for="tournamentSelect">Tournament</label>
+                    <select id="tournamentSelect" 
+                            class="filter-select"
+                            aria-label="Select tournament">
+                        <option value="All">All Tournaments</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="categorySelect">Category</label>
+                    <select id="categorySelect" 
+                            class="filter-select"
+                            aria-label="Select category">
+                        <option value="team">Team</option>
+                        <option value="player">Player</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="gameSelect">Game</label>
+                    <select id="gameSelect" 
+                            class="filter-select"
+                            aria-label="Select game">
+                        <option value="All">All Games</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sortSelect">Sort By</label>
+                    <select id="sortSelect" 
+                            class="filter-select"
+                            aria-label="Sort by">
+                        <option value="score_high_to_low">Score (High to Low)</option>
+                        <option value="score_low_to_high">Score (Low to High)</option>
+                        <option value="alphabetical">Alphabetical</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section id="leaderboard" 
+                 class="leaderboard-section" 
+                 aria-live="polite"
+                 aria-busy="false">
+            <!-- Dynamic content will be inserted here -->
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingIndicator" 
+             class="loading-indicator" 
+             role="status" 
+             aria-live="polite" 
+             hidden>
+            <div class="loading-spinner" aria-hidden="true"></div>
+            <span class="loading-text">Loading leaderboard data...</span>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorContainer" 
+             class="error-container" 
+             role="alert" 
+             aria-live="assertive" 
+             hidden>
+        </div>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <p>Made by: <a href="https://github.com/Lopensed" 
+                          target="_blank" 
+                          rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  aria-label="Join our Discord server">Join our Discord</a></p>
+        </div>
+    </footer>
+
+    <!-- Templates -->
+    <template id="errorTemplate">
+        <div class="error-message">
+            <p class="error-text"></p>
+            <button type="button" class="error-retry">Retry</button>
+        </div>
+    </template>
+
+    <!-- Scripts -->
+    <script src="utils.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

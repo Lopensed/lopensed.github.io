@@ -1,0 +1,304 @@
+{
+    "users": [
+        {
+            "username": "Ethan",
+            "mcUUID": "8f9e726a-59bb-443b-89b0-76b93a89b4fb",
+            "discordID": "857423553556381707"
+        },
+        {
+            "username": "Sour",
+            "mcUUID": "7fa71489-1a52-45d1-a37c-1a84f9901eb2",
+            "discordID": "785622343723778069"
+        },
+        {
+            "username": "Jordan",
+            "mcUUID": "cbaff2bb-c339-4507-8cc8-a7a63923f7fc",
+            "discordID": "360878862403502080"
+        },
+        {
+            "username": "Facu",
+            "mcUUID": "bf4a8083-69ca-4249-a0d2-d61232d09951",
+            "discordID": "751623545217482754"
+        },
+        {
+            "username": "Frog",
+            "mcUUID": "c2a35585-6c85-463f-93a3-c86582c20e25",
+            "discordID": "547519223426187284"
+        },
+        {
+            "username": "Kermit",
+            "mcUUID": "65882c25-9945-402b-b210-57ea60219b9c",
+            "discordID": "707818560990478406"
+        },
+        {
+            "username": "Balloon",
+            "mcUUID": "7310391c-e5eb-4f20-a55b-9d09ac2b26e0",
+            "discordID": "792196884454178846"
+        },
+        {
+            "username": "Vampy",
+            "mcUUID": "1d20ad01-b489-4e0e-82ec-cdb1e7559c6e",
+            "discordID": "899362624725213194"
+        },
+        {
+            "username": "Fubu",
+            "mcUUID": "74be82c5-a05f-4921-aac4-783b582e2224",
+            "discordID": "1270149078671425598"
+        },
+        {
+            "username": "Llama",
+            "mcUUID": "cdf271c5-355f-4eb9-9573-e6397ff1b770",
+            "discordID": "881959706103513189"
+        },
+        {
+            "username": "Stuww",
+            "mcUUID": "36c7bf8d-2a1f-428c-b39f-dc1280d211d6",
+            "discordID": "698979911653654638"
+        },
+        {
+            "username": "Dino",
+            "mcUUID": "b49f2655-9716-4822-86d4-355affe27c8a",
+            "discordID": "655824153831800836"
+        },
+        {
+            "username": "Octwins",
+            "mcUUID": "77614632-96a2-4db1-adc3-1e11bcd4b6d1",
+            "discordID": "1123125586982866954"
+        },
+        {
+            "username": "Misted",
+            "mcUUID": "a7af95a3-a844-4ea7-a48a-93826d5286be",
+            "discordID": "867558322722308137"
+        },
+        {
+            "username": "Heather",
+            "mcUUID": "6bf444e6-3193-4968-9933-fce92c3a76db",
+            "discordID": "632267525484183564"
+        },
+        {
+            "username": "Suna",
+            "mcUUID": "d469758f-ad75-46e0-8e90-cd134304f290",
+            "discordID": "1269299074243497984"
+        },
+        {
+            "username": "ETP",
+            "mcUUID": "98a1f107-0551-498f-b141-921e8cec3f24",
+            "discordID": "1208515547147276389"
+        },
+        {
+            "username": "Zero",
+            "mcUUID": "70092e1b-e165-4d97-90b3-2d531a5b0a02",
+            "discordID": "1231076161392742400"
+        },
+        {
+            "username": "IsleToGlory",
+            "mcUUID": "03ea6b48-e176-41d5-ad54-b277e1ed375f",
+            "discordID": "1290067896948621324"
+        },
+        {
+            "username": "iiwawa",
+            "mcUUID": "45e066e1-a47f-4669-be18-2d60c9af588d",
+            "discordID": "722090378219618304"
+        },
+        {
+            "username": "Stichea",
+            "mcUUID": "14691e5c-dc28-4341-9587-0ab2b08fe62e",
+            "discordID": "548398268875407362"
+        },
+        {
+            "username": "Ghostly",
+            "mcUUID": "156934d9-7547-49e2-86d5-598e244eac24",
+            "discordID": "937110916577783888"
+        },
+        {
+            "username": "Invex",
+            "mcUUID": "8f102277-4df9-48e5-b766-b01187350404",
+            "discordID": "735938112164724864"
+        },
+        {
+            "username": "Zenith",
+            "mcUUID": "9ce8bad6-3c89-4486-b676-5a4b91fb0dc0",
+            "discordID": "952034246506197002"
+        },
+        {
+            "username": "Hqrizon",
+            "mcUUID": "c441ac04-d5a0-4aa8-80d7-cd56d491d6b9",
+            "discordID": "857423553556381707"
+        },
+        {
+            "username": "Kjacks",
+            "mcUUID": "aa416ca4-ff18-41bc-b100-a06d8d4d13f6",
+            "discordID": "1185967182274908203"
+        },
+        {
+            "username": "Aukless",
+            "mcUUID": "9af5557f-ece8-473d-af71-d59b36f5cfc0",
+            "discordID": "247165297394581514"
+        },
+        {
+            "username": "Sophie",
+            "mcUUID": "16cb0c64-dc57-42c0-8038-b80bebbbdeed",
+            "discordID": "1213236501589135401"
+        },
+        {
+            "username": "Fluffv",
+            "mcUUID": "dfe40508-1b62-49a7-a7ca-bd8d4011da94",
+            "discordID": "809837083744927815"
+        },
+        {
+            "username": "Wish",
+            "mcUUID": "718ab1c5-667b-465b-b262-36a9991914e7",
+            "discordID": "1233968037720232037"
+        },
+        {
+            "username": "XRVGEORGEGUY",
+            "mcUUID": "8826889a-2d41-4bd3-992a-857163721000",
+            "discordID": "964879705427824720"
+        },
+        {
+            "username": "Zach",
+            "mcUUID": "122436de-d9bb-428e-9bb5-c3938143b0c3",
+            "discordID": "460914008439128074"
+        },
+        {
+            "username": "Error",
+            "mcUUID": "c9d617c4-7a7c-4c1d-b351-51699d599543",
+            "discordID": "1098795371448250398"
+        },
+        {
+            "username": "Dusk",
+            "mcUUID": "22e8cd5f-f28d-4a18-b83f-f2d2f3fdd5e8",
+            "discordID": "1293694190680543376"
+        },
+        {
+            "username": "Lymithic",
+            "mcUUID": "79c7f65a-1b7e-4605-b4d0-7e7153631c69",
+            "discordID": "1061848901130399875"
+        },
+        {
+            "username": "Fano",
+            "mcUUID": "70d335b4-814b-4967-8ead-fb29402668ea",
+            "discordID": "807675711833374742"
+        },
+        {
+            "username": "Soty",
+            "mcUUID": "8a4e9484-ddd3-4296-9748-b63524c4724a",
+            "discordID": "788413374047191052"
+        },
+        {
+            "username": "OnlyLife",
+            "mcUUID": "35655b35-dd4f-4db2-8486-17b2e6383607",
+            "discordID": "715665784550064208"
+        },
+        {
+            "username": "Omni",
+            "mcUUID": "aacd5883-4045-4296-b035-fb0c38488376",
+            "discordID": "517834176095846420"
+        },
+        {
+            "username": "Burn",
+            "mcUUID": "3f966613-001e-49f1-933e-9705f18addf3",
+            "discordID": "270347959105749002"
+        },
+        {
+            "username": "BigDealFamily",
+            "mcUUID": "51628531-2b20-47f1-9b4e-f0490f649e52",
+            "discordID": "1196958413696024637"
+        },
+        {
+            "username": "Floote",
+            "mcUUID": "4127f988-7f52-4445-8af8-522e1b3f3c22",
+            "discordID": "326490102547349504"
+        },
+        {
+            "username": "Peter",
+            "mcUUID": "85184085-9bca-46a3-a706-8d067db681c8",
+            "discordID": "1108903594473828372"
+        },
+        {
+            "username": "Ottels",
+            "mcUUID": "372ea15d-8554-49a5-8080-79cd4dcd6954",
+            "discordID": "1176020514444169236"
+        },
+        {
+            "username": "Echo",
+            "mcUUID": "7cca759d-cfd7-4b46-a443-5a4c39c4977e",
+            "discordID": "1132785489909403769"
+        },
+        {
+            "username": "Lopensed",
+            "mcUUID": "af711f69-f08f-47e1-8d78-50a20aabf824",
+            "discordID": "484055035269873664"
+        },
+        {
+            "username": "Sepa",
+            "mcUUID": "7ea9cba3-ea6b-43f1-9c69-5ce6f45797aa",
+            "discordID": "1016810284796612780"
+        },
+        {
+            "username": "Rougex",
+            "mcUUID": "72b43f49-336c-4f83-8814-48cd5aca5687",
+            "discordID": "463748100297850881"
+        },
+        {
+            "username": "Alchemiist",
+            "mcUUID": "42bc0bda-4d64-4369-b5b5-68657ce0ab04",
+            "discordID": "245706852581638144"
+        },
+        {
+            "username": "SpacePotato",
+            "mcUUID": "54782e31-838e-4e69-8a73-bd648f3e4a88",
+            "discordID": "839606084906123265"
+        },
+        {
+            "username": "Chuck",
+            "mcUUID": "25d1018c-caa0-4492-98bd-7aff6d29fe06",
+            "discordID": "830562629210472468"
+        },
+        {
+            "username": "Photon",
+            "mcUUID": "a24a8be2-54e9-49d0-8b0c-3f2fa2281283",
+            "discordID": "796900695214522389"
+        },
+        {
+            "username": "Max",
+            "mcUUID": "bdc489b8-c7bf-40c9-86ca-d1bc8e2f1da9",
+            "discordID": "881289979706359909"
+        },
+        {
+            "username": "Heavenlypop_",
+            "mcUUID": "8e9fb35e-826e-4582-a8de-814b955af81b",
+            "discordID": "1271273529761071128"
+        },
+        {
+            "username": "Ganecks",
+            "mcUUID": "35d7d80b-1a85-4532-a641-d81c1184586e",
+            "discordID": "578407512622235649"
+        },
+        {
+            "username": "MrNobody",
+            "mcUUID": "4b691e65-80b1-4110-9205-09d2dfddc385",
+            "discordID": "1053680583890456576"
+        },
+        {
+            "username": "Topaz",
+            "mcUUID": "",  
+            "discordID": "" 
+        },
+        {
+            "username": "BuenoPro",
+            "mcUUID": "",  
+            "discordID": "" 
+        },
+        {
+            "username": "Quiazzy", 
+            "mcUUID": "",  
+            "discordID": "" 
+        },
+        {
+            "username": "Star",
+            "mcUUID": "",  
+            "discordID": "" 
+        }
+    ]
+}

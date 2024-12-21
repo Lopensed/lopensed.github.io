@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View detailed tournament statistics, teams, and results">
+    <meta name="theme-color" content="#161b22">
+    <meta name="robots" content="index, follow">
+    
+    <title>Floggerz Stats - Tournament Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- PWA support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
+
+    <header class="main-header" role="banner">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="index.html" aria-label="Floggerz Stats Home">Floggerz Stats</a>
+            </h1>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Leaderboard</a></li>
+                    <li><a href="hof.html">Hall of Fame</a></li>
+                    <li><a href="navigation.html">Navigation</a></li>
+                </ul>
+            </nav>
+            <button id="modeToggle" 
+                    class="mode-toggle" 
+                    aria-label="Toggle color theme"
+                    data-current-mode="dark">
+                <span class="mode-toggle-text">Switch to Light Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content" class="content-container" role="main">
+        <section id="tournamentStats" class="tournament-stats-section" aria-live="polite">
+            <!-- Tournament Header -->
+            <div class="tournament-header" role="region" aria-label="Tournament Overview">
+                <!-- Will be populated dynamically -->
+            </div>
+
+            <!-- Screenshot Gallery -->
+            <section class="tournament-gallery" aria-label="Tournament Screenshots">
+                <div class="screenshot-gallery-container" tabindex="0">
+                    <button class="gallery-nav-btn prev-btn" 
+                            aria-label="Previous screenshot"
+                            hidden>
+                        <span class="arrow" aria-hidden="true">←</span>
+                    </button>
+                    <div class="screenshot-gallery" role="list">
+                        <!-- Will be populated dynamically -->
+                    </div>
+                    <button class="gallery-nav-btn next-btn" 
+                            aria-label="Next screenshot"
+                            hidden>
+                        <span class="arrow" aria-hidden="true">→</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Team Standings -->
+            <section class="tournament-standings" aria-labelledby="standings-title">
+                <h2 id="standings-title">Team Standings</h2>
+                <div class="standings-container">
+                    <div class="standings-table-wrapper">
+                        <!-- Will be populated dynamically -->
+                    </div>
+                    <div class="team-details-grid" role="list">
+                        <!-- Will be populated dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Game Statistics -->
+            <section class="tournament-games" aria-labelledby="games-title">
+                <h2 id="games-title">Games</h2>
+                <div class="games-container">
+                    <nav class="games-nav" 
+                         role="tablist" 
+                         aria-label="Tournament games">
+                        <!-- Will be populated dynamically -->
+                    </nav>
+                    <div id="game-content" 
+                         class="games-content" 
+                         role="tabpanel">
+                        <!-- Will be populated dynamically -->
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingIndicator" 
+             class="loading-indicator" 
+             role="status" 
+             aria-live="polite" 
+             hidden>
+            <div class="loading-spinner" aria-hidden="true"></div>
+            <span class="loading-text">Loading tournament data...</span>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorContainer" 
+             class="error-container" 
+             role="alert" 
+             aria-live="assertive" 
+             hidden>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" 
+             role="dialog" 
+             aria-label="Screenshot preview" 
+             aria-modal="true" 
+             hidden>
+            <button class="close-btn" aria-label="Close preview">×</button>
+            <button class="lightbox-nav-btn prev-btn" aria-label="Previous screenshot">
+                <span class="arrow" aria-hidden="true">←</span>
+            </button>
+            <img class="lightbox-content" alt="Screenshot preview">
+            <button class="lightbox-nav-btn next-btn" aria-label="Next screenshot">
+                <span class="arrow" aria-hidden="true">→</span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <p>Made by: <a href="https://github.com/Lopensed" 
+                          target="_blank" 
+                          rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  aria-label="Join our Discord server">Join our Discord</a></p>
+        </div>
+    </footer>
+
+    <!-- Templates -->
+    <template id="teamCardTemplate">
+        <div class="team-detail-card" role="listitem">
+            <div class="team-header">
+                <h3 class="team-name"></h3>
+                <span class="team-score"></span>
+            </div>
+            <div class="team-players">
+                <h4>Players</h4>
+                <ul class="player-list" role="list">
+                    <!-- Will be populated dynamically -->
+                </ul>
+            </div>
+            <div class="team-game-breakdown">
+                <h4>Game Breakdown</h4>
+                <div class="game-scores">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="gameTabTemplate">
+        <button class="game-nav-item" 
+                role="tab" 
+                aria-selected="false">
+            <span class="game-name"></span>
+            <span class="game-multiplier"></span>
+            <span class="game-order"></span>
+        </button>
+    </template>
+
+    <script src="utils.js" type="module"></script>
+    <script src="tournaments.js" type="module"></script>
+</body>
+</html>

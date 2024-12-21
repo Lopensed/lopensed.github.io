@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View detailed player statistics and performance history">
+    <meta name="theme-color" content="#161b22">
+    <meta name="robots" content="index, follow">
+    
+    <title>Floggerz Stats - Player Statistics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- PWA support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
+
+    <header class="main-header" role="banner">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="index.html" aria-label="Floggerz Stats Home">Floggerz Stats</a>
+            </h1>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Leaderboard</a></li>
+                    <li><a href="hof.html">Hall of Fame</a></li>
+                    <li><a href="navigation.html">Navigation</a></li>
+                </ul>
+            </nav>
+            <button id="modeToggle" 
+                    class="mode-toggle" 
+                    aria-label="Toggle color theme"
+                    data-current-mode="dark">
+                <span class="mode-toggle-text">Switch to Light Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content" class="content-container" role="main">
+        <section id="playerStats" class="player-stats-section" aria-live="polite">
+            <!-- Overall Stats -->
+            <div class="stats-overview" role="region" aria-label="Overall Statistics">
+                <!-- Will be populated dynamically -->
+            </div>
+
+            <!-- Game Performance -->
+            <div class="game-performance" role="region" aria-label="Game Performance">
+                <h2>Game Performance</h2>
+                <div class="game-stats-list" role="list">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </div>
+
+            <!-- Tournament History -->
+            <div class="tournament-history" role="region" aria-label="Tournament History">
+                <h2>Tournament History</h2>
+                <!-- Will be populated dynamically -->
+            </div>
+
+            <!-- Detailed Stats -->
+            <div class="detailed-stats" role="region" aria-label="Detailed Game Scores">
+                <h2>Detailed Game Scores</h2>
+                <div class="tournament-games-grid">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingIndicator" 
+             class="loading-indicator" 
+             role="status" 
+             aria-live="polite" 
+             hidden>
+            <div class="loading-spinner" aria-hidden="true"></div>
+            <span class="loading-text">Loading player statistics...</span>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorContainer" 
+             class="error-container" 
+             role="alert" 
+             aria-live="assertive" 
+             hidden>
+        </div>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <p>Made by: <a href="https://github.com/Lopensed" 
+                          target="_blank" 
+                          rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  aria-label="Join our Discord server">Join our Discord</a></p>
+        </div>
+    </footer>
+
+    <!-- Templates -->
+    <template id="statCardTemplate">
+        <div class="stat-card" role="listitem">
+            <span class="stat-value"></span>
+            <span class="stat-label"></span>
+        </div>
+    </template>
+
+    <template id="gameStatTemplate">
+        <div class="game-stat-item" role="listitem">
+            <div class="game-name"></div>
+            <div class="game-stats">
+                <span class="average"></span>
+                <span class="best"></span>
+                <span class="worst"></span>
+                <span class="games-played"></span>
+            </div>
+        </div>
+    </template>
+
+    <script src="utils.js" type="module"></script>
+    <script src="player-stats.js" type="module"></script>
+</body>
+</html>

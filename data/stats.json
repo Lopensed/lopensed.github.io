@@ -1,0 +1,2825 @@
+{
+  "tournaments": {
+    "MccF2": {
+      "winners": "C",
+      "games": {
+        "Rocket Spleef Rush": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Balloon",
+              "scores": {
+                "Rocket Spleef Rush": [450, 150, 250],
+                "PKWS": [270, 436],
+                "TGTTOS": [452, 336],
+                "HITW": [365, 520, 90],
+                "Sky Battle": [12, 6, 175],
+                "Battle Box": [455, 250]
+              }
+            },
+            {
+              "name": "Lymithic",
+              "scores": {
+                "Rocket Spleef Rush": [75, 50, 275],
+                "PKWS": [108, 195],
+                "TGTTOS": [324, 376],
+                "HITW": [520, 365, 125],
+                "Sky Battle": [8, 14, 6],
+                "Battle Box": [410, 250]
+              }
+            },
+            {
+              "name": "Sophie",
+              "scores": {
+                "Rocket Spleef Rush": [150, 25, 75],
+                "PKWS": [60, 99],
+                "TGTTOS": [96, 6],
+                "HITW": [90, 60, 275],
+                "Sky Battle": [4, 0, 0],
+                "Battle Box": [455, 160]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Kermit",
+              "scores": {
+                "Rocket Spleef Rush": [275, 75, 225],
+                "PKWS": [261, 231],
+                "TGTTOS": [231, 246],
+                "HITW": [0, 195, 320],
+                "Sky Battle": [2, 122, 62],
+                "Battle Box": [500, 455]
+              }
+            },
+            {
+              "name": "Octwins",
+              "scores": {
+                "Rocket Spleef Rush": [325, 350, 300],
+                "PKWS": [147, 213],
+                "TGTTOS": [166, 178],
+                "HITW": [580, 580, 520],
+                "Sky Battle": [62, 2, 178],
+                "Battle Box": [410, 500]
+              }
+            },
+            {
+              "name": "Hqrizon",
+              "scores": {
+                "Rocket Spleef Rush": [50, 125, 0],
+                "PKWS": [156, 30],
+                "TGTTOS": [85, 134],
+                "HITW": [125, 0, 160],
+                "Sky Battle": [10, 56, 68],
+                "Battle Box": [365, 410]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ghostly",
+              "scores": {
+                "Rocket Spleef Rush": [125, 0, 225],
+                "PKWS": [222, 138],
+                "TGTTOS": [301, 188],
+                "HITW": [60, 30, 30],
+                "Sky Battle": [16, 124, 122],
+                "Battle Box": [755, 410]
+              }
+            },
+            {
+              "name": "Jordanius",
+              "scores": {
+                "Rocket Spleef Rush": [175, 450, 500],
+                "PKWS": [436, 327],
+                "TGTTOS": [280, 310],
+                "HITW": [195, 465, 580],
+                "Sky Battle": [120, 224, 66],
+                "Battle Box": [755, 455]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "Rocket Spleef Rush": [25, 100, 25],
+                "PKWS": [288, 222],
+                "TGTTOS": [176, 145],
+                "HITW": [275, 275, 235],
+                "Sky Battle": [0, 74, 0],
+                "Battle Box": [910, 455]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "Rocket Spleef Rush": [250, 375, 275],
+                "PKWS": [327, 288],
+                "TGTTOS": [261, 370],
+                "HITW": [235, 415, 465],
+                "Sky Battle": [114, 118, 70],
+                "Battle Box": [615, 910]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "Rocket Spleef Rush": [0, 275, 50],
+                "PKWS": [213, 204],
+                "TGTTOS": [209, 194],
+                "HITW": [320, 90, 365],
+                "Sky Battle": [24, 12, 14],
+                "Battle Box": [570, 730]
+              }
+            },
+            {
+              "name": "Llama",
+              "scores": {
+                "Rocket Spleef Rush": [350, 325, 200],
+                "PKWS": [165, 156],
+                "TGTTOS": [24, 167],
+                "HITW": [160, 125, 195],
+                "Sky Battle": [76, 4, 124],
+                "Battle Box": [570, 685]
+              }
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "players": [
+            {
+              "name": "Vampy",
+              "scores": {
+                "Rocket Spleef Rush": [200, 200, 150],
+                "PKWS": [99, 147],
+                "TGTTOS": [96, 318],
+                "HITW": [30, 275, 415],
+                "Sky Battle": [378, 170, 8],
+                "Battle Box": [205, 410]
+              }
+            },
+            {
+              "name": "Zero",
+              "scores": {
+                "Rocket Spleef Rush": [200, 300, 150],
+                "PKWS": [279, 270],
+                "TGTTOS": [56, 275],
+                "HITW": [415, 125, 60],
+                "Sky Battle": [76, 16, 2],
+                "Battle Box": [205, 365]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "Rocket Spleef Rush": [275, 175, 325],
+                "PKWS": [204, 279],
+                "TGTTOS": [176, 87],
+                "HITW": [465, 235, 0],
+                "Sky Battle": [68, 8, 10],
+                "Battle Box": [205, 455]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF3": {
+      "winners": "A",
+      "games": {
+        "Sky Battle": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "PKWS": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "Sky Battle": [6, 168, 368],
+                "TGTTOS": [314, 314],
+                "Rocket Spleef Rush": [225, 300, 575],
+                "PKWS": [320, 257],
+                "HITW": [245, 245, 415],
+                "Battle Box": [205, 750, 705]
+              }
+            },
+            {
+              "name": "Kjacks",
+              "scores": {
+                "Sky Battle": [2, 4, 12],
+                "TGTTOS": [86, 76],
+                "Rocket Spleef Rush": [50, 100, 125],
+                "PKWS": [131, 30],
+                "HITW": [300, 70, 355],
+                "Battle Box": [205, 570, 525]
+              }
+            },
+            {
+              "name": "Ghostly",
+              "scores": {
+                "Sky Battle": [4, 70, 8],
+                "TGTTOS": [314, 366],
+                "Rocket Spleef Rush": [25, 175, 75],
+                "PKWS": [172, 164],
+                "HITW": [150, 110, 35],
+                "Battle Box": [160, 365, 525]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Jordanius",
+              "scores": {
+                "Sky Battle": [172, 122, 56],
+                "TGTTOS": [411, 269],
+                "Rocket Spleef Rush": [175, 400, 350],
+                "PKWS": [431, 431],
+                "HITW": [550, 550, 300],
+                "Battle Box": [205, 500, 205]
+              }
+            },
+            {
+              "name": "Zero",
+              "scores": {
+                "Sky Battle": [116, 0, 0],
+                "TGTTOS": [90, 153],
+                "Rocket Spleef Rush": [275, 0, 25],
+                "PKWS": [183, 153],
+                "HITW": [110, 0, 195],
+                "Battle Box": [205, 455, 205]
+              }
+            },
+            {
+              "name": "ETP",
+              "scores": {
+                "Sky Battle": [18, 2, 4],
+                "TGTTOS": [102, 140],
+                "Rocket Spleef Rush": [75, 125, 275],
+                "PKWS": [205, 216],
+                "HITW": [70, 35, 245],
+                "Battle Box": [205, 320, 205]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Facu",
+              "scores": {
+                "Sky Battle": [0, 12, 12],
+                "TGTTOS": [179, 134],
+                "Rocket Spleef Rush": [250, 250, 200],
+                "PKWS": [268, 268],
+                "HITW": [415, 480, 550],
+                "Battle Box": [250, 205, 250]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "Sky Battle": [62, 10, 20],
+                "TGTTOS": [257, 217],
+                "Rocket Spleef Rush": [425, 75, 225],
+                "PKWS": [227, 279],
+                "HITW": [355, 355, 0],
+                "Battle Box": [250, 250, 250]
+              }
+            },
+            {
+              "name": "Lymithic",
+              "scores": {
+                "Sky Battle": [8, 166, 60],
+                "TGTTOS": [262, 27],
+                "Rocket Spleef Rush": [200, 225, 50],
+                "PKWS": [194, 205],
+                "HITW": [195, 300, 70],
+                "Battle Box": [160, 160, 160]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Sour",
+              "scores": {
+                "Sky Battle": [270, 14, 122],
+                "TGTTOS": [192, 283],
+                "Rocket Spleef Rush": [0, 150, 0],
+                "PKWS": [216, 320],
+                "HITW": [0, 150, 110],
+                "Battle Box": [570, 0, 250]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "Sky Battle": [60, 6, 64],
+                "TGTTOS": [373, 308],
+                "Rocket Spleef Rush": [250, 50, 150],
+                "PKWS": [279, 41],
+                "HITW": [480, 195, 480],
+                "Battle Box": [480, 90, 250]
+              }
+            },
+            {
+              "name": "Hqrizon",
+              "scores": {
+                "Sky Battle": [14, 108, 16],
+                "TGTTOS": [50, 308],
+                "Rocket Spleef Rush": [100, 25, 100],
+                "PKWS": [120, 82],
+                "HITW": [35, 415, 150],
+                "Battle Box": [570, 0, 205]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF4": {
+      "winners": "C",
+      "games": {
+        "PKWS": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Balloon",
+              "scores": {
+                "PKWS": [168, 284],
+                "Rocket Spleef Rush": [275, 350, 250],
+                "TGTTOS": [217, 384],
+                "Sky Battle": [136, 156, 132],
+                "HITW": [590, 60, 535],
+                "Battle Box": [300, 0, 0]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "PKWS": [244, 252],
+                "Rocket Spleef Rush": [150, 150, 0],
+                "TGTTOS": [72, 350],
+                "Sky Battle": [320, 24, 0],
+                "HITW": [260, 260, 31],
+                "Battle Box": [210, 135, 45]
+              }
+            },
+            {
+              "name": "Chuck",
+              "scores": {
+                "PKWS": [30, 0],
+                "Rocket Spleef Rush": [100, 275, 125],
+                "TGTTOS": [157, 33],
+                "Sky Battle": [32, 32, 12],
+                "HITW": [340, 190, 0],
+                "Battle Box": [120, 0, 0]
+              }
+            },
+            {
+              "name": "Hqrizon",
+              "scores": {
+                "PKWS": [114, 190],
+                "Rocket Spleef Rush": [100, 250, 25],
+                "TGTTOS": [199, 122],
+                "Sky Battle": [0, 40, 8],
+                "HITW": [60, 155, 190],
+                "Battle Box": [210, 45, 45]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Kermit",
+              "scores": {
+                "PKWS": [276, 260],
+                "Rocket Spleef Rush": [200, 175, 450],
+                "TGTTOS": [306, 290],
+                "Sky Battle": [456, 136, 120],
+                "HITW": [30, 340, 225],
+                "Battle Box": [165, 330, 210]
+              }
+            },
+            {
+              "name": "Octwins",
+              "scores": {
+                "PKWS": [252, 276],
+                "Rocket Spleef Rush": [275, 325, 225],
+                "TGTTOS": [292, 173],
+                "Sky Battle": [8, 152, 48],
+                "HITW": [300, 430, 155],
+                "Battle Box": [165, 285, 210]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "PKWS": [268, 152],
+                "Rocket Spleef Rush": [325, 0, 75],
+                "TGTTOS": [21, 355],
+                "Sky Battle": [152, 344, 228],
+                "HITW": [120, 480, 60],
+                "Battle Box": [165, 375, 165]
+              }
+            },
+            {
+              "name": "Echo",
+              "scores": {
+                "PKWS": [152, 144],
+                "Rocket Spleef Rush": [175, 400, 350],
+                "TGTTOS": [128, 243],
+                "Sky Battle": [40, 228, 144],
+                "HITW": [90, 255, 260],
+                "Battle Box": [120, 330, 210]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "PKWS": [322, 284],
+                "Rocket Spleef Rush": [25, 50, 325],
+                "TGTTOS": [496, 429],
+                "Sky Battle": [144, 560, 40],
+                "HITW": [430, 590, 300],
+                "Battle Box": [660, 510, 630]
+              }
+            },
+            {
+              "name": "Vampy",
+              "scores": {
+                "PKWS": [284, 198],
+                "Rocket Spleef Rush": [125, 325, 100],
+                "TGTTOS": [123, 112],
+                "Sky Battle": [378, 148, 224],
+                "HITW": [155, 0, 590],
+                "Battle Box": [795, 330, 405]
+              }
+            },
+            {
+              "name": "Ottels",
+              "scores": {
+                "PKWS": [176, 214],
+                "Rocket Spleef Rush": [400, 150, 150],
+                "TGTTOS": [306, 71],
+                "Sky Battle": [24, 8, 4],
+                "HITW": [480, 385, 225],
+                "Battle Box": [0, 240, 405]
+              }
+            },
+            {
+              "name": "ETP",
+              "scores": {
+                "PKWS": [260, 268],
+                "Rocket Spleef Rush": [375, 175, 375],
+                "TGTTOS": [183, 257],
+                "Sky Battle": [260, 132, 16],
+                "HITW": [385, 30, 340],
+                "Battle Box": [525, 285, 540]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Jordanius",
+              "scores": {
+                "PKWS": [430, 430],
+                "Rocket Spleef Rush": [450, 250, 325],
+                "TGTTOS": [478, 271],
+                "Sky Battle": [4, 58, 252],
+                "HITW": [590, 340, 480],
+                "Battle Box": [300, 375, 165]
+              }
+            },
+            {
+              "name": "Llama",
+              "scores": {
+                "PKWS": [160, 136],
+                "Rocket Spleef Rush": [250, 525, 525],
+                "TGTTOS": [338, 219],
+                "Sky Battle": [12, 0, 36],
+                "HITW": [190, 535, 430],
+                "Battle Box": [165, 285, 255]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "PKWS": [98, 206],
+                "Rocket Spleef Rush": [225, 75, 200],
+                "TGTTOS": [170, 255],
+                "Sky Battle": [128, 12, 352],
+                "HITW": [225, 120, 90],
+                "Battle Box": [210, 375, 225]
+              }
+            },
+            {
+              "name": "Dusk",
+              "scores": {
+                "PKWS": [106, 68],
+                "Rocket Spleef Rush": [0, 25, 50],
+                "TGTTOS": [33, 30],
+                "Sky Battle": [16, 4, 252],
+                "HITW": [0, 155, 120],
+                "Battle Box": [210, 285, 210]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF5": {
+      "winners": "C",
+      "games": {
+        "Sky Battle": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "HITW": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Rocket Spleef Rush": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "PKWS": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Vampy",
+              "scores": {
+                "Sky Battle": [228, 20, 12],
+                "TGTTOS": [250, 174],
+                "HITW": [260, 180, 430],
+                "Battle Box": [300, 330],
+                "Rocket Spleef Rush": [225, 375, 275],
+                "PKWS": [192, 46]
+              }
+            },
+            {
+              "name": "Photon",
+              "scores": {
+                "Sky Battle": [32, 196, 4],
+                "TGTTOS": [264, 231],
+                "HITW": [60, 105, 180],
+                "Battle Box": [210, 330],
+                "Rocket Spleef Rush": [125, 225, 250],
+                "PKWS": [300, 92]
+              }
+            },
+            {
+              "name": "Zero",
+              "scores": {
+                "Sky Battle": [228, 32, 228],
+                "TGTTOS": [281, 165],
+                "HITW": [0, 40, 205],
+                "Battle Box": [165, 420],
+                "Rocket Spleef Rush": [250, 425, 25],
+                "PKWS": [130, 230]
+              }
+            },
+            {
+              "name": "Zach",
+              "scores": {
+                "Sky Battle": [12, 8, 8],
+                "TGTTOS": [144, 96],
+                "HITW": [390, 635, 130],
+                "Battle Box": [210, 285],
+                "Rocket Spleef Rush": [300, 450, 150],
+                "PKWS": [84, 0]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Dino",
+              "scores": {
+                "Sky Battle": [0, 368, 476],
+                "TGTTOS": [440, 458],
+                "HITW": [320, 230, 555],
+                "Battle Box": [420, 870],
+                "Rocket Spleef Rush": [475, 425, 450],
+                "PKWS": [292, 292]
+              }
+            },
+            {
+              "name": "Kermit",
+              "scores": {
+                "Sky Battle": [116, 252, 324],
+                "TGTTOS": [409, 431],
+                "HITW": [105, 480, 105],
+                "Battle Box": [465, 825],
+                "Rocket Spleef Rush": [450, 250, 225],
+                "PKWS": [254, 160]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "Sky Battle": [4, 356, 50],
+                "TGTTOS": [241, 287],
+                "HITW": [180, 430, 290],
+                "Battle Box": [330, 780],
+                "Rocket Spleef Rush": [425, 200, 350],
+                "PKWS": [92, 222]
+              }
+            },
+            {
+              "name": "Dusk",
+              "scores": {
+                "Sky Battle": [8, 20, 164],
+                "TGTTOS": [163, 30],
+                "HITW": [155, 20, 40],
+                "Battle Box": [285, 735],
+                "Rocket Spleef Rush": [75, 50, 200],
+                "PKWS": [146, 168]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "XRVGEORGEGUY",
+              "scores": {
+                "Sky Battle": [252, 386, 244],
+                "TGTTOS": [296, 339],
+                "HITW": [430, 635, 390],
+                "Battle Box": [495, 540],
+                "Rocket Spleef Rush": [500, 425, 400],
+                "PKWS": [316, 356]
+              }
+            },
+            {
+              "name": "Aukless",
+              "scores": {
+                "Sky Battle": [40, 164, 20],
+                "TGTTOS": [81, 157],
+                "HITW": [635, 155, 320],
+                "Battle Box": [450, 585],
+                "Rocket Spleef Rush": [150, 175, 125],
+                "PKWS": [208, 176]
+              }
+            },
+            {
+              "name": "MrNobody",
+              "scores": {
+                "Sky Battle": [36, 136, 74],
+                "TGTTOS": [92, 36],
+                "HITW": [20, 130, 40],
+                "Battle Box": [450, 450],
+                "Rocket Spleef Rush": [50, 25, 75],
+                "PKWS": [8, 38]
+              }
+            },
+            {
+              "name": "Misted",
+              "scores": {
+                "Sky Battle": [56, 252, 52],
+                "TGTTOS": [536, 588],
+                "HITW": [355, 390, 635],
+                "Battle Box": [630, 630],
+                "Rocket Spleef Rush": [400, 575, 775],
+                "PKWS": [308, 454]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Jordanius",
+              "scores": {
+                "Sky Battle": [48, 16, 188],
+                "TGTTOS": [242, 373],
+                "HITW": [480, 355, 260],
+                "Battle Box": [585, 210],
+                "Rocket Spleef Rush": [325, 175, 525],
+                "PKWS": [462, 300]
+              }
+            },
+            {
+              "name": "Alchemiist",
+              "scores": {
+                "Sky Battle": [560, 8, 60],
+                "TGTTOS": [57, 224],
+                "HITW": [230, 290, 260],
+                "Battle Box": [405, 165],
+                "Rocket Spleef Rush": [150, 75, 0],
+                "PKWS": [246, 238]
+              }
+            },
+            {
+              "name": "Sophie",
+              "scores": {
+                "Sky Battle": [72, 0, 132],
+                "TGTTOS": [15, 42],
+                "HITW": [40, 0, 80],
+                "Battle Box": [450, 300],
+                "Rocket Spleef Rush": [225, 100, 175],
+                "PKWS": [46, 84]
+              }
+            },
+            {
+              "name": "Max",
+              "scores": {
+                "Sky Battle": [144, 4, 192],
+                "TGTTOS": [283, 119],
+                "HITW": [80, 260, 0],
+                "Battle Box": [630, 255],
+                "Rocket Spleef Rush": [25, 200, 200],
+                "PKWS": [154, 0]
+              }
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "players": [
+            {
+              "name": "Balloon",
+              "scores": {
+                "Sky Battle": [426, 372, 0],
+                "TGTTOS": [488, 427],
+                "HITW": [205, 320, 355],
+                "Battle Box": [780, 660],
+                "Rocket Spleef Rush": [475, 300, 325],
+                "PKWS": [354, 308]
+              }
+            },
+            {
+              "name": "Omni",
+              "scores": {
+                "Sky Battle": [64, 556, 36],
+                "TGTTOS": [144, 248],
+                "HITW": [290, 60, 390],
+                "Battle Box": [1005, 750],
+                "Rocket Spleef Rush": [325, 0, 400],
+                "PKWS": [138, 184]
+              }
+            },
+            {
+              "name": "Ghostly",
+              "scores": {
+                "Sky Battle": [168, 28, 340],
+                "TGTTOS": [87, 174],
+                "HITW": [130, 80, 155],
+                "Battle Box": [645, 570],
+                "Rocket Spleef Rush": [200, 275, 50],
+                "PKWS": [200, 246]
+              }
+            },
+            {
+              "name": "ETP",
+              "scores": {
+                "Sky Battle": [20, 12, 156],
+                "TGTTOS": [155, 63],
+                "HITW": [555, 205, 230],
+                "Battle Box": [870, 615],
+                "Rocket Spleef Rush": [0, 400, 375],
+                "PKWS": [0, 254]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF6": {
+      "winners": "B",
+      "games": {
+        "Rocket Spleef Rush": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "HITW": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Balloon",
+              "scores": {
+                "Rocket Spleef Rush": [600],
+                "TGTTOS": [466, 224],
+                "PKWS": [284, 462],
+                "Sky Battle": [54, 672, 28],
+                "Battle Box": [495, 705],
+                "HITW": [320, 355, 230]
+              }
+            },
+            {
+              "name": "Llama",
+              "scores": {
+                "Rocket Spleef Rush": [225],
+                "TGTTOS": [33, 57],
+                "PKWS": [160, 206],
+                "Sky Battle": [0, 44, 32],
+                "Battle Box": [540, 660],
+                "HITW": [555, 40, 130]
+              }
+            },
+            {
+              "name": "Ghostly",
+              "scores": {
+                "Rocket Spleef Rush": [25],
+                "TGTTOS": [78, 75],
+                "PKWS": [152, 222],
+                "Sky Battle": [82, 172, 4],
+                "Battle Box": [630, 660],
+                "HITW": [130, 130, 155]
+              }
+            },
+            {
+              "name": "SpacePotato",
+              "scores": {
+                "Rocket Spleef Rush": [125],
+                "TGTTOS": [45, 95],
+                "PKWS": [68, 60],
+                "Sky Battle": [58, 8, 124],
+                "Battle Box": [405, 660],
+                "HITW": [180, 80, 430]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Dino",
+              "scores": {
+                "Rocket Spleef Rush": [300],
+                "TGTTOS": [383, 481],
+                "PKWS": [354, 300],
+                "Sky Battle": [84, 0, 382],
+                "Battle Box": [405, 405],
+                "HITW": [390, 260, 205]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "Rocket Spleef Rush": [50],
+                "TGTTOS": [260, 108],
+                "PKWS": [206, 168],
+                "Sky Battle": [234, 16, 84],
+                "Battle Box": [540, 540],
+                "HITW": [635, 390, 355]
+              }
+            },
+            {
+              "name": "Zero",
+              "scores": {
+                "Rocket Spleef Rush": [350],
+                "TGTTOS": [239, 193],
+                "PKWS": [214, 214],
+                "Sky Battle": [234, 18, 18],
+                "Battle Box": [450, 615],
+                "HITW": [230, 20, 80]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "Rocket Spleef Rush": [500],
+                "TGTTOS": [271, 331],
+                "PKWS": [292, 152],
+                "Sky Battle": [20, 10, 84],
+                "Battle Box": [630, 705],
+                "HITW": [260, 290, 60]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "Rocket Spleef Rush": [250],
+                "TGTTOS": [351, 260],
+                "PKWS": [316, 354],
+                "Sky Battle": [52, 248, 248],
+                "Battle Box": [420, 540],
+                "HITW": [60, 60, 480]
+              }
+            },
+            {
+              "name": "iiwawa",
+              "scores": {
+                "Rocket Spleef Rush": [200],
+                "TGTTOS": [218, 310],
+                "PKWS": [168, 160],
+                "Sky Battle": [44, 28, 12],
+                "Battle Box": [375, 405],
+                "HITW": [155, 320, 320]
+              }
+            },
+            {
+              "name": "Zach",
+              "scores": {
+                "Rocket Spleef Rush": [475],
+                "TGTTOS": [133, 158],
+                "PKWS": [114, 76],
+                "Sky Battle": [48, 156, 152],
+                "Battle Box": [330, 630],
+                "HITW": [0, 260, 260]
+              }
+            },
+            {
+              "name": "Soty",
+              "scores": {
+                "Rocket Spleef Rush": [375],
+                "TGTTOS": [470, 339],
+                "PKWS": [300, 260],
+                "Sky Battle": [36, 52, 156],
+                "Battle Box": [420, 495],
+                "HITW": [205, 635, 635]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "OnlyLife",
+              "scores": {
+                "Rocket Spleef Rush": [275],
+                "TGTTOS": [235, 448],
+                "PKWS": [462, 308],
+                "Sky Battle": [4, 4, 128],
+                "Battle Box": [630, 405],
+                "HITW": [480, 480, 390]
+              }
+            },
+            {
+              "name": "Kermit",
+              "scores": {
+                "Rocket Spleef Rush": [375],
+                "TGTTOS": [352, 339],
+                "PKWS": [308, 316],
+                "Sky Battle": [220, 40, 20],
+                "Battle Box": [450, 585],
+                "HITW": [20, 430, 290]
+              }
+            },
+            {
+              "name": "Zenith",
+              "scores": {
+                "Rocket Spleef Rush": [0],
+                "TGTTOS": [222, 156],
+                "PKWS": [106, 144],
+                "Sky Battle": [8, 20, 104],
+                "Battle Box": [585, 630],
+                "HITW": [105, 230, 165]
+              }
+            },
+            {
+              "name": "Kjacks",
+              "scores": {
+                "Rocket Spleef Rush": [100],
+                "TGTTOS": [63, 63],
+                "PKWS": [60, 68],
+                "Sky Battle": [232, 24, 16],
+                "Battle Box": [540, 585],
+                "HITW": [80, 105, 20]
+              }
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "players": [
+            {
+              "name": "Misted",
+              "scores": {
+                "Rocket Spleef Rush": [175],
+                "TGTTOS": [365, 431],
+                "PKWS": [276, 292],
+                "Sky Battle": [28, 460, 444],
+                "Battle Box": [795, 165],
+                "HITW": [430, 635, 635]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "Rocket Spleef Rush": [175],
+                "TGTTOS": [125, 125],
+                "PKWS": [268, 276],
+                "Sky Battle": [160, 364, 264],
+                "Battle Box": [750, 255],
+                "HITW": [355, 180, 180]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "Rocket Spleef Rush": [75],
+                "TGTTOS": [177, 329],
+                "PKWS": [230, 284],
+                "Sky Battle": [56, 68, 0],
+                "Battle Box": [615, 165],
+                "HITW": [290, 320, 105]
+              }
+            },
+            {
+              "name": "Heavenlypop_",
+              "scores": {
+                "Rocket Spleef Rush": [300],
+                "TGTTOS": [194, 259],
+                "PKWS": [268, 268],
+                "Sky Battle": [24, 16, 40],
+                "Battle Box": [570, 255],
+                "HITW": [40, 155, 40]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF7": {
+      "winners": "C",
+      "games": {
+        "TGTTOS": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Sky Battle": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Dino",
+              "scores": {
+                "TGTTOS": [148, 9],
+                "PKWS": [330, 430],
+                "Rocket Spleef Rush": [400, 425, 375],
+                "HITW": [225, 385, 430],
+                "Battle Box": [585, 465],
+                "Sky Battle": [356, 120, 252]
+              }
+            },
+            {
+              "name": "Octwins",
+              "scores": {
+                "TGTTOS": [170, 131],
+                "PKWS": [292, 268],
+                "Rocket Spleef Rush": [275, 275, 300],
+                "HITW": [480, 30, 155],
+                "Battle Box": [450, 285],
+                "Sky Battle": [156, 32, 32]
+              }
+            },
+            {
+              "name": "Vampy",
+              "scores": {
+                "TGTTOS": [376, 394],
+                "PKWS": [276, 174],
+                "Rocket Spleef Rush": [125, 150, 350],
+                "HITW": [155, 225, 480],
+                "Battle Box": [450, 285],
+                "Sky Battle": [348, 148, 352]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "TGTTOS": [142, 183],
+                "PKWS": [244, 168],
+                "Rocket Spleef Rush": [150, 275, 200],
+                "HITW": [30, 120, 90],
+                "Battle Box": [495, 285],
+                "Sky Battle": [36, 124, 252]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Error",
+              "scores": {
+                "TGTTOS": [416, 277],
+                "PKWS": [190, 198],
+                "Rocket Spleef Rush": [375, 350, 100],
+                "HITW": [535, 260, 60],
+                "Battle Box": [420, 240],
+                "Sky Battle": [128, 456, 336]
+              }
+            },
+            {
+              "name": "Stichea",
+              "scores": {
+                "TGTTOS": [161, 270],
+                "PKWS": [30, 166],
+                "Rocket Spleef Rush": [325, 125, 200],
+                "HITW": [0, 430, 120],
+                "Battle Box": [120, 420],
+                "Sky Battle": [112, 256, 148]
+              }
+            },
+            {
+              "name": "Zenith",
+              "scores": {
+                "TGTTOS": [112, 136],
+                "PKWS": [252, 120],
+                "Rocket Spleef Rush": [50, 0, 0],
+                "HITW": [120, 0, 0],
+                "Battle Box": [330, 465],
+                "Sky Battle": [32, 140, 116]
+              }
+            },
+            {
+              "name": "iiwawa",
+              "scores": {
+                "TGTTOS": [142, 360],
+                "PKWS": [236, 260],
+                "Rocket Spleef Rush": [250, 100, 125],
+                "HITW": [190, 340, 260],
+                "Battle Box": [120, 240],
+                "Sky Battle": [4, 28, 244]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "TGTTOS": [518, 248],
+                "PKWS": [198, 276],
+                "Rocket Spleef Rush": [450, 250, 225],
+                "HITW": [385, 535, 385],
+                "Battle Box": [375, 255],
+                "Sky Battle": [240, 12, 4]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "TGTTOS": [223, 251],
+                "PKWS": [268, 182],
+                "Rocket Spleef Rush": [125, 225, 125],
+                "HITW": [340, 590, 225],
+                "Battle Box": [375, 210],
+                "Sky Battle": [144, 0, 0]
+              }
+            },
+            {
+              "name": "Llama",
+              "scores": {
+                "TGTTOS": [99, 116],
+                "PKWS": [260, 190],
+                "Rocket Spleef Rush": [250, 350, 425],
+                "HITW": [260, 480, 535],
+                "Battle Box": [330, 210],
+                "Sky Battle": [352, 4, 12]
+              }
+            },
+            {
+              "name": "Suna",
+              "scores": {
+                "TGTTOS": [98, 147],
+                "PKWS": [166, 206],
+                "Rocket Spleef Rush": [25, 100, 25],
+                "HITW": [590, 90, 340],
+                "Battle Box": [285, 165],
+                "Sky Battle": [0, 8, 8]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Kermit",
+              "scores": {
+                "TGTTOS": [264, 407],
+                "PKWS": [182, 222],
+                "Rocket Spleef Rush": [225, 75, 225],
+                "HITW": [430, 300, 300],
+                "Battle Box": [0, 165],
+                "Sky Battle": [16, 44, 128]
+              }
+            },
+            {
+              "name": "Balloon",
+              "scores": {
+                "TGTTOS": [255, 434],
+                "PKWS": [284, 322],
+                "Rocket Spleef Rush": [150, 375, 325],
+                "HITW": [60, 60, 190],
+                "Battle Box": [45, 120],
+                "Sky Battle": [24, 252, 40]
+              }
+            },
+            {
+              "name": "Ghostly",
+              "scores": {
+                "TGTTOS": [170, 94],
+                "PKWS": [158, 214],
+                "Rocket Spleef Rush": [0, 25, 50],
+                "HITW": [300, 190, 30],
+                "Battle Box": [45, 210],
+                "Sky Battle": [8, 16, 20]
+              }
+            },
+            {
+              "name": "Wish",
+              "scores": {
+                "TGTTOS": [300, 122],
+                "PKWS": [174, 284],
+                "Rocket Spleef Rush": [175, 300, 300],
+                "HITW": [90, 155, 590],
+                "Battle Box": [0, 120],
+                "Sky Battle": [120, 436, 24]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF8": {
+      "winners": "A",
+      "games": {
+        "Rocket Spleef Rush": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Sky Battle": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "TGTTOS": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Error",
+              "scores": {
+                "Rocket Spleef Rush": [350, 275, 325],
+                "PKWS": [198, 285],
+                "Sky Battle": [436, 456, 356],
+                "TGTTOS": [461, 465],
+                "HITW": [90, 430, 430],
+                "Battle Box": [540, 510]
+              }
+            },
+            {
+              "name": "Stichea",
+              "scores": {
+                "Rocket Spleef Rush": [50, 250, 300],
+                "PKWS": [60, 120],
+                "Sky Battle": [252, 8, 756],
+                "TGTTOS": [245, 173],
+                "HITW": [0, 120, 90],
+                "Battle Box": [495, 285]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "Rocket Spleef Rush": [150, 300, 75],
+                "PKWS": [260, 260],
+                "Sky Battle": [344, 244, 124],
+                "TGTTOS": [358, 246],
+                "HITW": [30, 480, 480],
+                "Battle Box": [540, 375]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "Rocket Spleef Rush": [125, 250, 100],
+                "PKWS": [206, 128],
+                "Sky Battle": [28, 52, 0],
+                "TGTTOS": [270, 113],
+                "HITW": [430, 340, 190],
+                "Battle Box": [405, 240]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Octwins",
+              "scores": {
+                "Rocket Spleef Rush": [300, 425, 200],
+                "PKWS": [222, 276],
+                "Sky Battle": [12, 32, 16],
+                "TGTTOS": [133, 241],
+                "HITW": [225, 120, 0],
+                "Battle Box": [176, 285]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "Rocket Spleef Rush": [100, 350, 225],
+                "PKWS": [152, 252],
+                "Sky Battle": [4, 120, 8],
+                "TGTTOS": [92, 350],
+                "HITW": [190, 0, 30],
+                "Battle Box": [176, 285]
+              }
+            },
+            {
+              "name": "Rougex",
+              "scores": {
+                "Rocket Spleef Rush": [250, 100, 315],
+                "PKWS": [292, 268],
+                "Sky Battle": [0, 136, 6],
+                "TGTTOS": [110, 337],
+                "HITW": [480, 60, 190],
+                "Battle Box": [267, 275]
+              }
+            },
+            {
+              "name": "Balloon",
+              "scores": {
+                "Rocket Spleef Rush": [300, 225, 300],
+                "PKWS": [276, 300],
+                "Sky Battle": [16, 116, 104],
+                "TGTTOS": [106, 371],
+                "HITW": [590, 155, 225],
+                "Battle Box": [131, 420]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "Rocket Spleef Rush": [525, 275, 575],
+                "PKWS": [300, 136],
+                "Sky Battle": [360, 128, 252],
+                "TGTTOS": [151, 381],
+                "HITW": [535, 535, 590],
+                "Battle Box": [165, 465]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "Rocket Spleef Rush": [175, 75, 175],
+                "PKWS": [284, 206],
+                "Sky Battle": [8, 360, 48],
+                "TGTTOS": [277, 306],
+                "HITW": [385, 260, 260],
+                "Battle Box": [120, 330]
+              }
+            },
+            {
+              "name": "Fluffv",
+              "scores": {
+                "Rocket Spleef Rush": [0, 125, 200],
+                "PKWS": [214, 144],
+                "Sky Battle": [232, 140, 40],
+                "TGTTOS": [99, 45],
+                "HITW": [300, 30, 60],
+                "Battle Box": [255, 330]
+              }
+            },
+            {
+              "name": "Aukless",
+              "scores": {
+                "Rocket Spleef Rush": [75, 0, 0],
+                "PKWS": [136, 198],
+                "Sky Battle": [24, 148, 32],
+                "TGTTOS": [161, 27],
+                "HITW": [120, 430, 90],
+                "Battle Box": [210, 240]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Dino",
+              "scores": {
+                "Rocket Spleef Rush": [425, 425, 450],
+                "PKWS": [268, 292],
+                "Sky Battle": [20, 40, 328],
+                "TGTTOS": [254, 213],
+                "HITW": [340, 225, 155],
+                "Battle Box": [120, 0]
+              }
+            },
+            {
+              "name": "Suna",
+              "scores": {
+                "Rocket Spleef Rush": [25, 50, 50],
+                "PKWS": [98, 182],
+                "Sky Battle": [40, 0, 20],
+                "TGTTOS": [199, 12],
+                "HITW": [260, 590, 535],
+                "Battle Box": [165, 0]
+              }
+            },
+            {
+              "name": "iiwawa",
+              "scores": {
+                "Rocket Spleef Rush": [225, 125, 25],
+                "PKWS": [144, 190],
+                "Sky Battle": [48, 24, 236],
+                "TGTTOS": [267, 120],
+                "HITW": [60, 300, 300],
+                "Battle Box": [165, 0]
+              }
+            },
+            {
+              "name": "Wish",
+              "scores": {
+                "Rocket Spleef Rush": [375, 275, 175],
+                "PKWS": [190, 214],
+                "Sky Battle": [256, 4, 28],
+                "TGTTOS": [417, 173],
+                "HITW": [155, 340, 385],
+                "Battle Box": [120, 0]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF9": {
+      "winners": "C",
+      "games": {
+        "TGTTOS": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "HITW": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": ["Dino", "Heather"],
+              "scores": {
+                "TGTTOS": [298, 186],
+                "PKWS": [268, 322],
+                "Rocket Spleef Rush": [150, 425, 350],
+                "Battle Box": [285, 45],
+                "Sky Battle": [48, 4, 148],
+                "HITW": [535, 155, 155]
+              }
+            },
+            {
+              "name": ["Llama", "Heather"],
+              "scores": {
+                "TGTTOS": [267, 24],
+                "PKWS": [98, 206],
+                "Rocket Spleef Rush": [275, 300, 275],
+                "Battle Box": [375, 45],
+                "Sky Battle": [16, 12, 32],
+                "HITW": [120, 90, 300]
+              }
+            },
+            {
+              "name": "Suna",
+              "scores": {
+                "TGTTOS": [24, 163],
+                "PKWS": [136, 114],
+                "Rocket Spleef Rush": [150, 25, 25],
+                "Battle Box": [330, 0],
+                "Sky Battle": [8, 0, 4],
+                "HITW": [155, 535, 340]
+              }
+            },
+            {
+              "name": "Kermit",
+              "scores": {
+                "TGTTOS": [141, 164],
+                "PKWS": [252, 260],
+                "Rocket Spleef Rush": [300, 250, 200],
+                "Battle Box": [375, 90],
+                "Sky Battle": [232, 78, 44],
+                "HITW": [260, 225, 30]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Vampy",
+              "scores": {
+                "TGTTOS": [170, 27],
+                "PKWS": [144, 60],
+                "Rocket Spleef Rush": [50, 150, 50],
+                "Battle Box": [285, 240],
+                "Sky Battle": [0, 100, 100],
+                "HITW": [430, 60, 590]
+              }
+            },
+            {
+              "name": "Invex",
+              "scores": {
+                "TGTTOS": [478, 461],
+                "PKWS": [430, 284],
+                "Rocket Spleef Rush": [325, 250, 225],
+                "Battle Box": [375, 510],
+                "Sky Battle": [156, 32, 252],
+                "HITW": [30, 340, 430]
+              }
+            },
+            {
+              "name": "Zenith",
+              "scores": {
+                "TGTTOS": [125, 36],
+                "PKWS": [244, 160],
+                "Rocket Spleef Rush": [125, 0, 125],
+                "Battle Box": [465, 420],
+                "Sky Battle": [356, 100, 140],
+                "HITW": [225, 340, 0]
+              }
+            },
+            {
+              "name": ["Dusk", "Zero"],
+              "scores": {
+                "TGTTOS": [84, 119],
+                "PKWS": [152, 152],
+                "Rocket Spleef Rush": [350, 50, 0],
+                "Battle Box": [240, 240],
+                "Sky Battle": [4, 98, 98],
+                "HITW": [0, 30, 60]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "TGTTOS": [447, 179],
+                "PKWS": [284, 276],
+                "Rocket Spleef Rush": [400, 325, 225],
+                "Battle Box": [210, 285],
+                "Sky Battle": [20, 556, 248],
+                "HITW": [385, 385, 120]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "TGTTOS": [33, 319],
+                "PKWS": [228, 252],
+                "Rocket Spleef Rush": [0, 75, 300],
+                "Battle Box": [165, 330],
+                "Sky Battle": [112, 248, 356],
+                "HITW": [300, 300, 535]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "TGTTOS": [255, 377],
+                "PKWS": [276, 168],
+                "Rocket Spleef Rush": [25, 125, 100],
+                "Battle Box": [165, 285],
+                "Sky Battle": [252, 248, 456],
+                "HITW": [30, 0, 190]
+              }
+            },
+            {
+              "name": "Wish",
+              "scores": {
+                "TGTTOS": [306, 293],
+                "PKWS": [260, 268],
+                "Rocket Spleef Rush": [250, 375, 325],
+                "Battle Box": [120, 240],
+                "Sky Battle": [240, 248, 20],
+                "HITW": [190, 430, 155]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Facu",
+              "scores": {
+                "TGTTOS": [80, 145],
+                "PKWS": [152, 106],
+                "Rocket Spleef Rush": [425, 150, 450],
+                "Battle Box": [210, 210],
+                "Sky Battle": [128, 16, 8],
+                "HITW": [340, 480, 190]
+              }
+            },
+            {
+              "name": "Jordanius",
+              "scores": {
+                "TGTTOS": [269, 316],
+                "PKWS": [322, 214],
+                "Rocket Spleef Rush": [175, 275, 325],
+                "Battle Box": [300, 300],
+                "Sky Battle": [144, 20, 0],
+                "HITW": [480, 260, 480]
+              }
+            },
+            {
+              "name": "Fubu",
+              "scores": {
+                "TGTTOS": [426, 474],
+                "PKWS": [236, 430],
+                "Rocket Spleef Rush": [350, 350, 350],
+                "Battle Box": [165, 165],
+                "Sky Battle": [144, 144, 16],
+                "HITW": [590, 590, 385]
+              }
+            },
+            {
+              "name": "Fluffv",
+              "scores": {
+                "TGTTOS": [197, 311],
+                "PKWS": [220, 98],
+                "Rocket Spleef Rush": [75, 275, 75],
+                "Battle Box": [210, 210],
+                "Sky Battle": [24, 136, 12],
+                "HITW": [90, 190, 90]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF10": {
+      "winners": "A",
+      "games": {
+        "PKWS": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "Sky Battle": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Battle Box": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Fubu",
+              "scores": {
+                "PKWS": [292, 284],
+                "TGTTOS": [324, 176],
+                "Rocket Spleef Rush": [450, 675, 450],
+                "HITW": [590, 590, 590],
+                "Sky Battle": [252, 140, 448],
+                "Battle Box": [540, 210, 210]
+              }
+            },
+            {
+              "name": "IsleToGlory",
+              "scores": {
+                "PKWS": [300, 330],
+                "TGTTOS": [478, 377],
+                "Rocket Spleef Rush": [350, 300, 550],
+                "HITW": [535, 260, 155],
+                "Sky Battle": [544, 124, 248],
+                "Battle Box": [585, 210, 210]
+              }
+            },
+            {
+              "name": "Kermit",
+              "scores": {
+                "PKWS": [268, 276],
+                "TGTTOS": [371, 254],
+                "Rocket Spleef Rush": [50, 425, 175],
+                "HITW": [260, 300, 340],
+                "Sky Battle": [252, 20, 348],
+                "Battle Box": [495, 255, 255]
+              }
+            },
+            {
+              "name": "Suna",
+              "scores": {
+                "PKWS": [106, 106],
+                "TGTTOS": [180, 115],
+                "Rocket Spleef Rush": [175, 225, 75],
+                "HITW": [190, 590, 480],
+                "Sky Battle": [152, 0, 148],
+                "Battle Box": [360, 165, 120]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Jordanius",
+              "scores": {
+                "PKWS": [284, 284],
+                "TGTTOS": [122, 407],
+                "Rocket Spleef Rush": [525, 350, 150],
+                "HITW": [225, 430, 430],
+                "Sky Battle": [132, 328, 112],
+                "Battle Box": [300, 45, 330]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "PKWS": [252, 292],
+                "TGTTOS": [141, 322],
+                "Rocket Spleef Rush": [0, 75, 175],
+                "HITW": [155, 190, 190],
+                "Sky Battle": [140, 36, 332],
+                "Battle Box": [255, 45, 645]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "PKWS": [190, 106],
+                "TGTTOS": [152, 429],
+                "Rocket Spleef Rush": [275, 225, 75],
+                "HITW": [0, 385, 90],
+                "Sky Battle": [36, 32, 36],
+                "Battle Box": [120, 0, 240]
+              }
+            },
+            {
+              "name": "Chuck",
+              "scores": {
+                "PKWS": [114, 98],
+                "TGTTOS": [81, 187],
+                "Rocket Spleef Rush": [25, 25, 25],
+                "HITW": [90, 155, 0],
+                "Sky Battle": [4, 16, 0],
+                "Battle Box": [120, 45, 240]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "PKWS": [276, 198],
+                "TGTTOS": [345, 274],
+                "Rocket Spleef Rush": [375, 300, 425],
+                "HITW": [480, 590, 535],
+                "Sky Battle": [48, 552, 28],
+                "Battle Box": [165, 585, 120]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "PKWS": [260, 252],
+                "TGTTOS": [164, 54],
+                "Rocket Spleef Rush": [250, 150, 325],
+                "HITW": [300, 225, 385],
+                "Sky Battle": [128, 152, 32],
+                "Battle Box": [165, 495, 345]
+              }
+            },
+            {
+              "name": "Llama",
+              "scores": {
+                "PKWS": [244, 214],
+                "TGTTOS": [147, 42],
+                "Rocket Spleef Rush": [250, 200, 475],
+                "HITW": [340, 340, 30],
+                "Sky Battle": [0, 4, 36],
+                "Battle Box": [165, 540, 165]
+              }
+            },
+            {
+              "name": "Sophie",
+              "scores": {
+                "PKWS": [30, 60],
+                "TGTTOS": [15, 15],
+                "Rocket Spleef Rush": [125, 0, 0],
+                "HITW": [120, 30, 260],
+                "Sky Battle": [24, 152, 44],
+                "Battle Box": [120, 360, 210]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": ["Lopensed", "Sepa"],
+              "scores": {
+                "PKWS": [152, 174],
+                "TGTTOS": [306, 167],
+                "Rocket Spleef Rush": [150, 325, 250],
+                "HITW": [60, 90, 300],
+                "Sky Battle": [20, 244, 4],
+                "Battle Box": [165, 375, 330]
+              }
+            },
+            {
+              "name": "Peter",
+              "scores": {
+                "PKWS": [206, 206],
+                "TGTTOS": [309, 313],
+                "Rocket Spleef Rush": [325, 150, 100],
+                "HITW": [30, 60, 120],
+                "Sky Battle": [12, 128, 248],
+                "Battle Box": [300, 420, 375]
+              }
+            },
+            {
+              "name": "Heather",
+              "scores": {
+                "PKWS": [38, 190],
+                "TGTTOS": [253, 238],
+                "Rocket Spleef Rush": [100, 175, 200],
+                "HITW": [430, 0, 60],
+                "Sky Battle": [8, 8, 20],
+                "Battle Box": [120, 375, 420]
+              }
+            },
+            {
+              "name": "Fluffv",
+              "scores": {
+                "PKWS": [198, 260],
+                "TGTTOS": [191, 199],
+                "Rocket Spleef Rush": [75, 50, 275],
+                "HITW": [385, 120, 255],
+                "Sky Battle": [16, 12, 116],
+                "Battle Box": [165, 240, 240]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF11": {
+      "winners": "B",
+      "games": {
+        "PKWS": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "Rocket Spleef Rush": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Sky Battle": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Fubu",
+              "scores": {
+                "PKWS": [206, 292, 206],
+                "TGTTOS": [500, 403, 365],
+                "Rocket Spleef Rush": [425, 100, 275],
+                "Battle Box": [45, 0, 165],
+                "HITW": [535, 590, 535],
+                "Sky Battle": [8, 144, 148]
+              }
+            },
+            {
+              "name": "Octwins",
+              "scores": {
+                "PKWS": [252, 182, 284],
+                "TGTTOS": [167, 288, 218],
+                "Rocket Spleef Rush": [400, 400, 400],
+                "Battle Box": [45, 45, 120],
+                "HITW": [155, 190, 480],
+                "Sky Battle": [0, 24, 20]
+              }
+            },
+            {
+              "name": "Frog",
+              "scores": {
+                "PKWS": [214, 244, 214],
+                "TGTTOS": [116, 123, 248],
+                "Rocket Spleef Rush": [350, 100, 100],
+                "Battle Box": [0, 90, 120],
+                "HITW": [430, 60, 30],
+                "Sky Battle": [4, 232, 116]
+              }
+            },
+            {
+              "name": "Sophie",
+              "scores": {
+                "PKWS": [68, 30, 60],
+                "TGTTOS": [30, 39, 21],
+                "Rocket Spleef Rush": [0, 0, 0],
+                "Battle Box": [0, 0, 120],
+                "HITW": [190, 430, 260],
+                "Sky Battle": [12, 20, 28]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Kermit",
+              "scores": {
+                "PKWS": [284, 260, 190],
+                "TGTTOS": [273, 205, 269],
+                "Rocket Spleef Rush": [125, 350, 50],
+                "Battle Box": [285, 420, 495],
+                "HITW": [385, 340, 0],
+                "Sky Battle": [256, 248, 0]
+              }
+            },
+            {
+              "name": "Sour",
+              "scores": {
+                "PKWS": [292, 284, 322],
+                "TGTTOS": [254, 167, 242],
+                "Rocket Spleef Rush": [250, 25, 125],
+                "Battle Box": [420, 330, 495],
+                "HITW": [340, 480, 430],
+                "Sky Battle": [24, 16, 452]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "PKWS": [276, 252, 222],
+                "TGTTOS": [286, 254, 151],
+                "Rocket Spleef Rush": [325, 225, 350],
+                "Battle Box": [240, 375, 495],
+                "HITW": [300, 260, 385],
+                "Sky Battle": [128, 104, 452]
+              }
+            },
+            {
+              "name": "Floote",
+              "scores": {
+                "PKWS": [136, 190, 144],
+                "TGTTOS": [160, 280, 112],
+                "Rocket Spleef Rush": [100, 200, 25],
+                "Battle Box": [420, 330, 405],
+                "HITW": [225, 90, 120],
+                "Sky Battle": [252, 360, 4]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": "Misted",
+              "scores": {
+                "PKWS": [152, 276, 430],
+                "TGTTOS": [514, 342, 331],
+                "Rocket Spleef Rush": [175, 325, 325],
+                "Battle Box": [210, 210, 0],
+                "HITW": [120, 535, 190],
+                "Sky Battle": [248, 252, 252]
+              }
+            },
+            {
+              "name": ["Facu", "Aukless"],
+              "scores": {
+                "PKWS": [144, 174, 182],
+                "TGTTOS": [212, 222, 199],
+                "Rocket Spleef Rush": [225, 75, 250],
+                "Battle Box": [165, 255, 45],
+                "HITW": [30, 225, 300],
+                "Sky Battle": [20, 32, 32]
+              }
+            },
+            {
+              "name": "Suna",
+              "scores": {
+                "PKWS": [30, 128, 136],
+                "TGTTOS": [74, 239, 151],
+                "Rocket Spleef Rush": [225, 150, 200],
+                "Battle Box": [120, 120, 0],
+                "HITW": [225, 120, 590],
+                "Sky Battle": [16, 8, 16]
+              }
+            },
+            {
+              "name": "Hqrizon",
+              "scores": {
+                "PKWS": [160, 198, 128],
+                "TGTTOS": [77, 158, 232],
+                "Rocket Spleef Rush": [75, 225, 150],
+                "Battle Box": [210, 210, 45],
+                "HITW": [0, 300, 155],
+                "Sky Battle": [40, 40, 0]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "PKWS": [330, 330, 268],
+                "TGTTOS": [285, 448, 390],
+                "Rocket Spleef Rush": [425, 375, 475],
+                "Battle Box": [495, 405, 420],
+                "HITW": [590, 155, 340],
+                "Sky Battle": [444, 228, 336]
+              }
+            },
+            {
+              "name": "Stichea",
+              "scores": {
+                "PKWS": [260, 236, 198],
+                "TGTTOS": [389, 254, 350],
+                "Rocket Spleef Rush": [200, 350, 225],
+                "Battle Box": [585, 630, 285],
+                "HITW": [480, 0, 60],
+                "Sky Battle": [332, 356, 32]
+              }
+            },
+            {
+              "name": "Heather",
+              "scores": {
+                "PKWS": [198, 166, 260],
+                "TGTTOS": [161, 48, 100],
+                "Rocket Spleef Rush": [200, 125, 375],
+                "Battle Box": [540, 585, 375],
+                "HITW": [90, 30, 90],
+                "Sky Battle": [0, 32, 40]
+              }
+            },
+            {
+              "name": "BigDealFamily",
+              "scores": {
+                "PKWS": [268, 268, 276],
+                "TGTTOS": [102, 118, 215],
+                "Rocket Spleef Rush": [50, 375, 125],
+                "Battle Box": [360, 360, 375],
+                "HITW": [60, 385, 60],
+                "Sky Battle": [260, 40, 244]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF12": {
+      "winners": "E",
+      "games": {
+        "Rocket Spleef Rush": {
+          "order": 1,
+          "multiplier": 1.0
+        },
+        "PKWS": {
+          "order": 2,
+          "multiplier": 1.0
+        },
+        "TGTTOS": {
+          "order": 3,
+          "multiplier": 1.5
+        },
+        "Battle Box": {
+          "order": 4,
+          "multiplier": 1.5
+        },
+        "HITW": {
+          "order": 5,
+          "multiplier": 1.75
+        },
+        "Sky Battle": {
+          "order": 6,
+          "multiplier": 2.0
+        }
+      },
+      "teams": [
+        {
+          "name": "A",
+          "players": [
+            {
+              "name": "Jordanius",
+              "scores": {
+                "Rocket Spleef Rush": [75, 375, 325],
+                "PKWS": [316, 316, 462],
+                "TGTTOS": [331, 528, 162],
+                "Battle Box": [480, 575],
+                "HITW": [480, 555, 290],
+                "Sky Battle": [136, 168, 368]
+              }
+            },
+            {
+              "name": ["Octwins", "Llama"],
+              "scores": {
+                "Rocket Spleef Rush": [225, 400, 225],
+                "PKWS": [222, 144, 354],
+                "TGTTOS": [205, 33, 230],
+                "Battle Box": [165, 530],
+                "HITW": [40, 230, 260],
+                "Sky Battle": [116, 152, 40]
+              }
+            },
+            {
+              "name": ["Suna", "Frog"],
+              "scores": {
+                "Rocket Spleef Rush": [100, 100, 50],
+                "PKWS": [152, 152, 160],
+                "TGTTOS": [168, 101, 225],
+                "Battle Box": [210, 440],
+                "HITW": [105, 180, 430],
+                "Sky Battle": [8, 56, 44]
+              }
+            },
+            {
+              "name": "Echo",
+              "scores": {
+                "Rocket Spleef Rush": [375, 300, 425],
+                "PKWS": [254, 214, 68],
+                "TGTTOS": [259, 132, 141],
+                "Battle Box": [210, 240],
+                "HITW": [80, 80, 130],
+                "Sky Battle": [4, 436, 4]
+              }
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "players": [
+            {
+              "name": "Sour",
+              "scores": {
+                "Rocket Spleef Rush": [175, 50, 150],
+                "PKWS": [230, 222, 230],
+                "TGTTOS": [78, 339, 155],
+                "Battle Box": [375, 465],
+                "HITW": [355, 355, 60],
+                "Sky Battle": [168, 120, 64]
+              }
+            },
+            {
+              "name": "IsleToGlory",
+              "scores": {
+                "Rocket Spleef Rush": [500, 275, 575],
+                "PKWS": [354, 354, 316],
+                "TGTTOS": [654, 431, 606],
+                "Battle Box": [330, 375],
+                "HITW": [205, 290, 390],
+                "Sky Battle": [468, 344, 236]
+              }
+            },
+            {
+              "name": "Facu",
+              "scores": {
+                "Rocket Spleef Rush": [375, 175, 450],
+                "PKWS": [246, 238, 300],
+                "TGTTOS": [247, 75, 45],
+                "Battle Box": [465, 465],
+                "HITW": [635, 430, 635],
+                "Sky Battle": [168, 88, 8]
+              }
+            },
+            {
+              "name": "Sophie",
+              "scores": {
+                "Rocket Spleef Rush": [0, 125, 175],
+                "PKWS": [60, 30, 106],
+                "TGTTOS": [15, 27, 42],
+                "Battle Box": [420, 285],
+                "HITW": [60, 40, 60],
+                "Sky Battle": [44, 4, 12]
+              }
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "players": [
+            {
+              "name": ["Invex", "Vampy"],
+              "scores": {
+                "Rocket Spleef Rush": [625, 150, 450],
+                "PKWS": [308, 308, 308],
+                "TGTTOS": [233, 528, 373],
+                "Battle Box": [495, 630],
+                "HITW": [230, 320, 355],
+                "Sky Battle": [264, 472, 124]
+              }
+            },
+            {
+              "name": "Stuww",
+              "scores": {
+                "Rocket Spleef Rush": [500, 425, 325],
+                "PKWS": [206, 254, 168],
+                "TGTTOS": [90, 233, 48],
+                "Battle Box": [450, 540],
+                "HITW": [290, 390, 205],
+                "Sky Battle": [148, 356, 252]
+              }
+            },
+            {
+              "name": "Zenith",
+              "scores": {
+                "Rocket Spleef Rush": [200, 25, 75],
+                "PKWS": [136, 106, 122],
+                "TGTTOS": [60, 84, 143],
+                "Battle Box": [585, 450],
+                "HITW": [180, 0, 0],
+                "Sky Battle": [32, 32, 32]
+              }
+            },
+            {
+              "name": "Ganecks",
+              "scores": {
+                "Rocket Spleef Rush": [25, 0, 0],
+                "PKWS": [68, 98, 114],
+                "TGTTOS": [36, 213, 159],
+                "Battle Box": [450, 450],
+                "HITW": [20, 60, 20],
+                "Sky Battle": [156, 132, 20]
+              }
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "players": [
+            {
+              "name": "Burn",
+              "scores": {
+                "Rocket Spleef Rush": [150, 75, 25],
+                "PKWS": [198, 160, 214],
+                "TGTTOS": [193, 496, 283],
+                "Battle Box": [1005, 750],
+                "HITW": [130, 205, 105],
+                "Sky Battle": [160, 64, 252]
+              }
+            },
+            {
+              "name": "Fubu",
+              "scores": {
+                "Rocket Spleef Rush": [425, 225, 725],
+                "PKWS": [292, 462, 268],
+                "TGTTOS": [342, 540, 440],
+                "Battle Box": [870, 705],
+                "HITW": [635, 480, 635],
+                "Sky Battle": [352, 128, 348]
+              }
+            },
+            {
+              "name": "iiwawa",
+              "scores": {
+                "Rocket Spleef Rush": [475, 500, 175],
+                "PKWS": [160, 230, 222],
+                "TGTTOS": [244, 130, 135],
+                "Battle Box": [690, 615],
+                "HITW": [390, 105, 180],
+                "Sky Battle": [140, 16, 116]
+              }
+            },
+            {
+              "name": "Kjacks",
+              "scores": {
+                "Rocket Spleef Rush": [175, 200, 150],
+                "PKWS": [214, 206, 60],
+                "TGTTOS": [318, 60, 190],
+                "Battle Box": [690, 570],
+                "HITW": [155, 130, 40],
+                "Sky Battle": [40, 40, 24]
+              }
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "players": [
+            {
+              "name": "Ethan",
+              "scores": {
+                "Rocket Spleef Rush": [400, 625, 400],
+                "PKWS": [462, 300, 292],
+                "TGTTOS": [404, 169, 450],
+                "Battle Box": [762, 495],
+                "HITW": [320, 635, 480],
+                "Sky Battle": [112, 148, 160]
+              }
+            },
+            {
+              "name": "Heather",
+              "scores": {
+                "Rocket Spleef Rush": [350, 350, 200],
+                "PKWS": [144, 168, 206],
+                "TGTTOS": [274, 166, 166],
+                "Battle Box": [716, 495],
+                "HITW": [0, 155, 155],
+                "Sky Battle": [128, 0, 164]
+              }
+            },
+            {
+              "name": "Fano",
+              "scores": {
+                "Rocket Spleef Rush": [250, 575, 300],
+                "PKWS": [300, 292, 284],
+                "TGTTOS": [484, 188, 496],
+                "Battle Box": [626, 495],
+                "HITW": [430, 260, 230],
+                "Sky Battle": [0, 12, 256]
+              }
+            },
+            {
+              "name": "ETP",
+              "scores": {
+                "Rocket Spleef Rush": [50, 450, 300],
+                "PKWS": [238, 246, 276],
+                "TGTTOS": [36, 177, 185],
+                "Battle Box": [626, 450],
+                "HITW": [260, 20, 80],
+                "Sky Battle": [24, 24, 164]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "MccF13": {
+          "winners": "Autism",
+          "games": {
+            "Bingo": {
+              "order": 1,
+              "multiplier": 1.0
+            },
+            "Rocket Spleef Rush": {
+              "order": 2,
+              "multiplier": 1.0
+            },
+            "Sky Battle": {
+              "order": 3,
+              "multiplier": 1.5
+            },
+            "PKWS": {
+              "order": 4,
+              "multiplier": 1.5
+            },
+            "HITW": {
+              "order": 5,
+              "multiplier": 1.75
+            },
+            "Battle Box": {
+              "order": 6,
+              "multiplier": 2.0
+            }
+          },
+          "teams": [
+            {
+              "name": "Autism",
+              "players": [
+                {
+                  "name": "Ethan",
+                  "scores": {
+                    "Bingo": [300, 96, 120],
+                    "Rocket Spleef Rush": [475, 200, 250],
+                    "Sky Battle": [120, 344, 0],
+                    "PKWS": [252, 322, 284],
+                    "HITW": [480, 190, 120],
+                    "Battle Box": [255, 461]
+                  }
+                },
+                {
+                  "name": "Kermit",
+                  "scores": {
+                    "Bingo": [180, 96, 120],
+                    "Rocket Spleef Rush": [150, 100, 225],
+                    "Sky Battle": [24, 252, 252],
+                    "PKWS": [182, 268, 276],
+                    "HITW": [225, 225, 590],
+                    "Battle Box": [165, 551]
+                  }
+                },
+                {
+                  "name": "Octwins",
+                  "scores": {
+                    "Bingo": [150, 96, 120],
+                    "Rocket Spleef Rush": [125, 125, 225],
+                    "Sky Battle": [4, 152, 352],
+                    "PKWS": [276, 236, 244],
+                    "HITW": [340, 155, 190],
+                    "Battle Box": [165, 462]
+                  }
+                },
+                {
+                  "name": "Frog",
+                  "scores": {
+                    "Bingo": [120, 96, 120],
+                    "Rocket Spleef Rush": [75, 225, 50],
+                    "Sky Battle": [28, 152, 252],
+                    "PKWS": [174, 144, 152],
+                    "HITW": [60, 300, 90],
+                    "Battle Box": [210, 371]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "B",
+              "players": [
+                {
+                  "name": ["Topaz", "Sepa"],
+                  "scores": {
+                    "Bingo": [30, 0, 100],
+                    "Rocket Spleef Rush": [400, 350, 150],
+                    "Sky Battle": [0, 212, 112],
+                    "PKWS": [284, 228, 268],
+                    "HITW": [260, 385, 260],
+                    "Battle Box": [450, 285]
+                  }
+                },
+                {
+                  "name": "Stichea",
+                  "scores": {
+                    "Bingo": [180, 0, 100],
+                    "Rocket Spleef Rush": [200, 375, 200],
+                    "Sky Battle": [36, 16, 144],
+                    "PKWS": [158, 152, 198],
+                    "HITW": [155, 90, 155],
+                    "Battle Box": [585, 375]
+                  }
+                },
+                {
+                  "name": ["BigDealFamily", "Dusk"],
+                  "scores": {
+                    "Bingo": [150, 0, 100],
+                    "Rocket Spleef Rush": [25, 175, 150],
+                    "Sky Battle": [8, 212, 24],
+                    "PKWS": [228, 430, 260],
+                    "HITW": [30, 0, 30],
+                    "Battle Box": [360, 285]
+                  }
+                },
+                {
+                  "name": "Kjacks",
+                  "scores": {
+                    "Bingo": [60, 0, 100],
+                    "Rocket Spleef Rush": [300, 125, 325],
+                    "Sky Battle": [18, 40, 236],
+                    "PKWS": [120, 98, 206],
+                    "HITW": [0, 60, 30],
+                    "Battle Box": [405, 375]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cool People",
+              "players": [
+                {
+                  "name": "Fubu",
+                  "scores": {
+                    "Bingo": [240, 16, 110],
+                    "Rocket Spleef Rush": [150, 475, 350],
+                    "Sky Battle": [456, 248, 240],
+                    "PKWS": [430, 244, 76],
+                    "HITW": [300, 590, 480],
+                    "Battle Box": [210, 221]
+                  }
+                },
+                {
+                  "name": "Ganecks",
+                  "scores": {
+                    "Bingo": [90, 16, 110],
+                    "Rocket Spleef Rush": [0, 0, 0],
+                    "Sky Battle": [16, 0, 20],
+                    "PKWS": [244, 90, 30],
+                    "HITW": [90, 120, 60],
+                    "Battle Box": [165, 176]
+                  }
+                },
+                {
+                  "name": ["Facu", "llama"],
+                  "scores": {
+                    "Bingo": [120, 16, 110],
+                    "Rocket Spleef Rush": [200, 250, 25],
+                    "Sky Battle": [48, 232, 132],
+                    "PKWS": [220, 252, 68],
+                    "HITW": [430, 30, 300],
+                    "Battle Box": [165, 267]
+                  }
+                },
+                {
+                  "name": "BuenoPro",
+                  "scores": {
+                    "Bingo": [120, 16, 110],
+                    "Rocket Spleef Rush": [225, 400, 375],
+                    "Sky Battle": [352, 4, 116],
+                    "PKWS": [268, 284, 322],
+                    "HITW": [120, 430, 120],
+                    "Battle Box": [120, 131]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Diddy",
+              "players": [
+                {
+                  "name": ["Fano", "Star"],
+                  "scores": {
+                    "Bingo": [0, 0, 85],
+                    "Rocket Spleef Rush": [350, 375, 575],
+                    "Sky Battle": [140, 24, 48],
+                    "PKWS": [166, 190, 144],
+                    "HITW": [190, 340, 385],
+                    "Battle Box": [255, 45]
+                  }
+                },
+                {
+                  "name": "Sour",
+                  "scores": {
+                    "Bingo": [90, 0, 85],
+                    "Rocket Spleef Rush": [275, 25, 125],
+                    "Sky Battle": [460, 128, 128],
+                    "PKWS": [322, 276, 252],
+                    "HITW": [590, 535, 0],
+                    "Battle Box": [165, 135]
+                  }
+                },
+                {
+                  "name": "Quiazzy",
+                  "scores": {
+                    "Bingo": [60, 0, 85],
+                    "Rocket Spleef Rush": [375, 400, 450],
+                    "Sky Battle": [32, 136, 8],
+                    "PKWS": [260, 260, 430],
+                    "HITW": [385, 480, 225],
+                    "Battle Box": [165, 90]
+                  }
+                },
+                {
+                  "name": "Suna",
+                  "scores": {
+                    "Bingo": [150, 0, 85],
+                    "Rocket Spleef Rush": [175, 50, 125],
+                    "Sky Battle": [144, 8, 4],
+                    "PKWS": [236, 136, 190],
+                    "HITW": [535, 260, 535],
+                    "Battle Box": [165, 0]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }

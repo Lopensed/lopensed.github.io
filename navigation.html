@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Navigate and search through Floggerz tournaments, teams, and players">
+    <meta name="theme-color" content="#161b22">
+    <meta name="robots" content="index, follow">
+    
+    <title>Floggerz Stats - Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- PWA support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+    <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
+
+    <header class="main-header" role="banner">
+        <div class="header-content">
+            <h1 class="site-title">
+                <a href="index.html" aria-label="Floggerz Stats Home">Floggerz Stats</a>
+            </h1>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Leaderboard</a></li>
+                    <li><a href="hof.html">Hall of Fame</a></li>
+                    <li><a href="navigation.html" class="active" aria-current="page">Navigation</a></li>
+                </ul>
+            </nav>
+            <button id="modeToggle" 
+                    class="mode-toggle" 
+                    aria-label="Toggle color theme"
+                    data-current-mode="dark">
+                <span class="mode-toggle-text">Switch to Light Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content" class="content-container" role="main">
+        <div id="search-container" class="search-section" role="search">
+            <label for="searchInput" class="search-label">Search players, teams, or tournaments</label>
+            <div class="search-field">
+                <input type="search" 
+                       id="searchInput" 
+                       class="search-input"
+                       placeholder="Start typing to search..." 
+                       autocomplete="off"
+                       aria-label="Search content">
+                <span class="search-icon" aria-hidden="true"></span>
+            </div>
+        </div>
+
+        <div id="search-results" 
+             class="results-section" 
+             role="region" 
+             aria-label="Search results"
+             aria-live="polite">
+            <!-- Dynamic search results will be inserted here -->
+        </div>
+
+        <section class="tournaments-section">
+            <h2>Tournaments</h2>
+            <div id="tournament-links" 
+                 class="tournament-grid" 
+                 role="list"
+                 aria-label="Tournament list">
+                <!-- Tournament links will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <div id="loadingIndicator" 
+             class="loading-indicator" 
+             role="status" 
+             aria-live="polite" 
+             hidden>
+            <div class="loading-spinner" aria-hidden="true"></div>
+            <span class="loading-text">Loading navigation data...</span>
+        </div>
+    </main>
+    
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-content">
+            <p>Made by: <a href="https://github.com/Lopensed" 
+                          target="_blank" 
+                          rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  aria-label="Join our Discord server">Join our Discord</a></p>
+        </div>
+    </footer>
+
+    <template id="tournamentCardTemplate">
+        <div class="tournament-card" role="listitem">
+            <h3 class="tournament-title"></h3>
+            <div class="tournament-stats">
+                <span class="teams-count"></span>
+                <span class="players-count"></span>
+                <span class="games-count"></span>
+            </div>
+        </div>
+    </template>
+
+    <script src="utils.js" type="module"></script>
+    <script src="navigation.js" type="module"></script>
+</body>
+</html>
