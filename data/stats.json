@@ -1,7 +1,7 @@
 {
   "tournaments": {
     "MccF2": {
-      "winners": "C",
+      "winners": "Cool People",
       "games": {
         "Rocket Spleef Rush": {
           "order": 1,
@@ -30,7 +30,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Balloon",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Kermit",
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ghostly",
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Ethan",
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "name": "E",
+          "name": "E for Effort",
           "players": [
             {
               "name": "Vampy",
@@ -222,7 +222,7 @@
       ]
     },
     "MccF3": {
-      "winners": "A",
+      "winners": "Austism",
       "games": {
         "Sky Battle": {
           "order": 1,
@@ -251,7 +251,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Ethan",
@@ -289,7 +289,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Jordanius",
@@ -327,7 +327,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Facu",
@@ -365,7 +365,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Sour",
@@ -405,7 +405,7 @@
       ]
     },
     "MccF4": {
-      "winners": "C",
+      "winners": "Cool People",
       "games": {
         "PKWS": {
           "order": 1,
@@ -434,7 +434,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Balloon",
@@ -483,7 +483,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Kermit",
@@ -532,7 +532,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -581,7 +581,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Jordanius",
@@ -632,7 +632,7 @@
       ]
     },
     "MccF5": {
-      "winners": "C",
+      "winners": "Cool People",
       "games": {
         "Sky Battle": {
           "order": 1,
@@ -661,7 +661,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Vampy",
@@ -710,7 +710,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Dino",
@@ -759,7 +759,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "XRVGEORGEGUY",
@@ -808,7 +808,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Jordanius",
@@ -857,7 +857,7 @@
           ]
         },
         {
-          "name": "E",
+          "name": "E for Effort",
           "players": [
             {
               "name": "Balloon",
@@ -908,7 +908,7 @@
       ]
     },
     "MccF6": {
-      "winners": "B",
+      "winners": "Boyfriends for Life",
       "games": {
         "Rocket Spleef Rush": {
           "order": 1,
@@ -937,7 +937,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Balloon",
@@ -986,7 +986,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Dino",
@@ -1035,7 +1035,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -1084,7 +1084,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "OnlyLife",
@@ -1133,7 +1133,7 @@
           ]
         },
         {
-          "name": "E",
+          "name": "E for Effort",
           "players": [
             {
               "name": "Misted",
@@ -1184,7 +1184,7 @@
       ]
     },
     "MccF7": {
-      "winners": "C",
+      "winners": "Cool People",
       "games": {
         "TGTTOS": {
           "order": 1,
@@ -1213,7 +1213,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Dino",
@@ -1262,7 +1262,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Error",
@@ -1311,7 +1311,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -1360,7 +1360,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Kermit",
@@ -1411,7 +1411,7 @@
       ]
     },
     "MccF8": {
-      "winners": "A",
+      "winners": "Autism",
       "games": {
         "Rocket Spleef Rush": {
           "order": 1,
@@ -1440,7 +1440,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Error",
@@ -1489,7 +1489,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Octwins",
@@ -1538,7 +1538,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -1587,7 +1587,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Dino",
@@ -1638,7 +1638,7 @@
       ]
     },
     "MccF9": {
-      "winners": "C",
+      "winners": "Cool People",
       "games": {
         "TGTTOS": {
           "order": 1,
@@ -1667,7 +1667,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": ["Dino", "Heather"],
@@ -1716,7 +1716,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Vampy",
@@ -1765,7 +1765,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -1814,7 +1814,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Facu",
@@ -1865,7 +1865,7 @@
       ]
     },
     "MccF10": {
-      "winners": "A",
+      "winners": "Autism",
       "games": {
         "PKWS": {
           "order": 1,
@@ -1894,7 +1894,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Fubu",
@@ -1943,7 +1943,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Jordanius",
@@ -1992,7 +1992,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Ethan",
@@ -2041,7 +2041,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": ["Lopensed", "Sepa"],
@@ -2092,7 +2092,7 @@
       ]
     },
     "MccF11": {
-      "winners": "B",
+      "winners": "Boyfriends for Life",
       "games": {
         "PKWS": {
           "order": 1,
@@ -2121,7 +2121,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Fubu",
@@ -2170,7 +2170,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Kermit",
@@ -2219,7 +2219,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": "Misted",
@@ -2268,7 +2268,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Ethan",
@@ -2319,7 +2319,7 @@
       ]
     },
     "MccF12": {
-      "winners": "E",
+      "winners": "E for Effort",
       "games": {
         "Rocket Spleef Rush": {
           "order": 1,
@@ -2348,7 +2348,7 @@
       },
       "teams": [
         {
-          "name": "A",
+          "name": "Autism",
           "players": [
             {
               "name": "Jordanius",
@@ -2397,7 +2397,7 @@
           ]
         },
         {
-          "name": "B",
+          "name": "Boyfriends for Life",
           "players": [
             {
               "name": "Sour",
@@ -2446,7 +2446,7 @@
           ]
         },
         {
-          "name": "C",
+          "name": "Cool People",
           "players": [
             {
               "name": ["Invex", "Vampy"],
@@ -2495,7 +2495,7 @@
           ]
         },
         {
-          "name": "D",
+          "name": "Diddy",
           "players": [
             {
               "name": "Burn",
@@ -2544,7 +2544,7 @@
           ]
         },
         {
-          "name": "E",
+          "name": "E for Effort",
           "players": [
             {
               "name": "Ethan",
@@ -2595,7 +2595,7 @@
       ]
     },
     "MccF13": {
-          "winners": "Autism",
+          "winners": "Autistic Antlers",
           "games": {
             "Bingo": {
               "order": 1,
@@ -2624,7 +2624,7 @@
           },
           "teams": [
             {
-              "name": "Autism",
+              "name": "Autistic Antlers",
               "players": [
                 {
                   "name": "Ethan",
@@ -2673,7 +2673,7 @@
               ]
             },
             {
-              "name": "B",
+              "name": "Bell Boyfriends",
               "players": [
                 {
                   "name": ["Topaz", "Sepa"],
@@ -2722,7 +2722,7 @@
               ]
             },
             {
-              "name": "Cool People",
+              "name": "Cool Candy Canes",
               "players": [
                 {
                   "name": "Fubu",
@@ -2771,7 +2771,7 @@
               ]
             },
             {
-              "name": "Diddy",
+              "name": "December Dumbasses",
               "players": [
                 {
                   "name": ["Fano", "Star"],
