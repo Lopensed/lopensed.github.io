@@ -90,13 +90,15 @@ class TeamStatsManager {
             games: {},
             players: [],
             total: 0,
-            position: this.calculateTournamentPosition(team, tournament)
+            position: this.calculateTournamentPosition(team, tournament),
+            canon: tournament.canon !== false 
         };
-
+    
         this.processTeamGames(team, tournament, tournamentStats);
         this.processTeamPlayers(team, tournament, tournamentStats);
         this.teamStats.tournaments.push(tournamentStats);
     }
+    
 
     /**
      * Process team's game performances
@@ -109,7 +111,10 @@ class TeamStatsManager {
             const gameStats = this.processGameStats(team, game, config);
             tournamentStats.games[game] = gameStats;
             tournamentStats.total += gameStats.score;
-            this.updateGameStats(game, gameStats);
+            
+            if (tournament.canon !== false) {
+                this.updateGameStats(game, gameStats);
+            }
         });
     }
 
@@ -183,7 +188,9 @@ class TeamStatsManager {
             scores: {},
             total: 0
         };
-
+    
+        if (tournament.canon === false) return stats;
+    
         Object.entries(tournament.games).forEach(([game, config]) => {
             if (player.scores[game]) {
                 const score = utils.score.calculatePlayerScore(
@@ -197,7 +204,7 @@ class TeamStatsManager {
                 stats.total += score;
             }
         });
-
+    
         return stats;
     }
 
@@ -214,14 +221,17 @@ class TeamStatsManager {
                 this.teamStats.playerStats.set(name, {
                     totalScore: 0,
                     appearances: 0,
-                    average: 0
+                    average: 0,
+                    canonAppearances: 0 
                 });
             }
-
+    
             const playerStats = this.teamStats.playerStats.get(name);
             playerStats.totalScore += stats.total;
-            playerStats.appearances++;
-            playerStats.average = playerStats.totalScore / playerStats.appearances;
+            if (stats.total > 0) {
+                playerStats.appearances++;
+                playerStats.average = playerStats.totalScore / playerStats.appearances;
+            }
         });
     }
 
@@ -246,8 +256,10 @@ class TeamStatsManager {
      */
     calculateOverallStats() {
         const stats = this.teamStats.overall;
-        stats.wins = this.teamStats.tournaments.filter(t => t.isWinner).length;
-        stats.totalScore = this.teamStats.tournaments.reduce((total, t) => total + t.total, 0);
+        const canonTournaments = this.teamStats.tournaments.filter(t => t.canon);
+    
+        stats.wins = canonTournaments.filter(t => t.isWinner).length;
+        stats.totalScore = canonTournaments.reduce((total, t) => total + t.total, 0);
         stats.gamesPlayed = Array.from(this.teamStats.gameStats.values())
             .reduce((total, game) => total + game.appearances, 0);
         stats.playerCount = this.teamStats.playerStats.size;
@@ -401,6 +413,7 @@ class TeamStatsManager {
     createPlayerContributionsTable() {
         const headers = ['Player', 'Tournaments', 'Total Score', 'Average Score'];
         const rows = Array.from(this.teamStats.playerStats.entries())
+            .filter(([_, stats]) => stats.appearances > 0) // Only show players with appearances
             .map(([player, stats]) => [
                 utils.format.createPlayerLink(player),
                 stats.appearances,
@@ -408,7 +421,7 @@ class TeamStatsManager {
                 utils.format.formatNumber(stats.average)
             ])
             .sort((a, b) => parseFloat(b[2].replace(/,/g, '')) - parseFloat(a[2].replace(/,/g, '')));
-
+    
         return utils.dom.createTable(headers, rows).outerHTML;
     }
 
@@ -430,18 +443,36 @@ class TeamStatsManager {
      * @returns {string} HTML content
      */
     createTournamentHistoryTable() {
-        const headers = ['Tournament', 'Position', 'Total Score', 'Result'];
+        const headers = ['Tournament', 'Position', 'Total Score', 'Result', 'Type'];
         const rows = this.teamStats.tournaments
             .sort((a, b) => b.total - a.total)
             .map(tournament => [
                 `<a href="tournaments.html?tournament=${encodeURIComponent(tournament.name)}">${tournament.name}</a>`,
                 `#${tournament.position}`,
-                utils.format.formatNumber(tournament.total),
-                tournament.isWinner ? '<span class="winner">Winner</span>' : '-'
+                utils.format.formatNumber(tournament.total), 
+                tournament.isWinner ? '<span class="winner">Winner</span>' : '-',
+                tournament.canon ? 'Canon' : '<span class="non-canon">Non-Canon</span>'
             ]);
-
+    
         return utils.dom.createTable(headers, rows).outerHTML;
     }
+
+    createSummaryStats() {
+        const canonTournaments = this.teamStats.tournaments.filter(t => t.canon);
+        const stats = [
+            { label: 'Tournament Wins', value: canonTournaments.filter(t => t.isWinner).length },
+            { label: 'Tournaments Played', value: canonTournaments.length },
+            { label: 'Total Score', value: utils.format.formatNumber(this.teamStats.overall.totalScore) }
+        ];
+    
+        return stats.map(stat => `
+            <div class="stat-item">
+                <span class="stat-value">${stat.value}</span>
+                <span class="stat-label">${stat.label}</span>
+            </div>
+        `).join('');
+    }
+
 }
 
 // Initialize on page load

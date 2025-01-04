@@ -121,7 +121,8 @@ class PlayerStatsManager {
             games: {},
             total: 0,
             position: this.calculateTournamentPosition(playerData.player, tournament),
-            originalData: playerData.player
+            originalData: playerData.player,
+            canon: tournament.canon !== false // Add canon property
         };
 
         this.processPlayerGames(playerData.player, tournament, tournamentStats);
@@ -239,9 +240,11 @@ class PlayerStatsManager {
      */
     calculateOverallStats() {
         const stats = this.playerStats.overall;
-        stats.totalWins = this.playerStats.tournaments.filter(t => t.isWinner).length;
+        const canonTournaments = this.playerStats.tournaments.filter(t => t.canon);
+
+        stats.totalWins = canonTournaments.filter(t => t.isWinner).length;
         
-        this.playerStats.tournaments.forEach(tournament => {
+        canonTournaments.forEach(tournament => {
             stats.totalScore += tournament.total;
             Object.values(tournament.games).forEach(game => {
                 stats.gamesPlayed += game.scores.length;
@@ -250,7 +253,7 @@ class PlayerStatsManager {
 
         stats.averageScore = stats.totalScore / stats.gamesPlayed;
     }
-
+    
     /**
      * Render player statistics
      */
@@ -309,15 +312,39 @@ class PlayerStatsManager {
      * @returns {string} HTML content
      */
     renderGamePerformance() {
-        return `
-            <div class="game-performance">
+        const canonTournaments = this.playerStats.tournaments.filter(t => t.canon);
+        const gameStatsMap = new Map();
+
+        canonTournaments.forEach(tournament => {
+            Object.entries(tournament.games).forEach(([game, stats]) => {
+                if (!gameStatsMap.has(game)) {
+                    gameStatsMap.set(game, {
+                        totalScore: 0,
+                        gamesPlayed: 0,
+                        average: 0,
+                        best: 0,
+                        worst: Infinity
+                    });
+                }
+
+                const gameStats = gameStatsMap.get(game);
+                gameStats.totalScore += stats.totalScore;
+                gameStats.gamesPlayed += stats.scores.length;
+                gameStats.average = gameStats.totalScore / gameStats.gamesPlayed;
+                gameStats.best = Math.max(gameStats.best, stats.best);
+                gameStats.worst = Math.min(gameStats.worst, stats.worst);
+            });
+        });
+
+            return `
+            <section class="game-performance">
                 <h3>Game Performance</h3>
-                <div class="game-stats-list">
+                <div class="game-stats-grid">
                     ${Array.from(this.playerStats.gameStats.entries())
                         .map(([game, stats]) => this.createGameStatCard(game, stats))
                         .join('')}
                 </div>
-            </div>
+            </section>
         `;
     }
 
@@ -328,20 +355,24 @@ class PlayerStatsManager {
      * @returns {string} HTML content
      */
     createGameStatCard(game, stats) {
-        const statItems = [
-            { label: 'Avg', value: stats.average },
-            { label: 'Best', value: stats.best },
-            { label: 'Worst', value: stats.worst },
-            { label: 'Games', value: stats.gamesPlayed }
+        const statRows = [
+            { label: 'Average Score', value: stats.average },
+            { label: 'Highest Score', value: stats.best },
+            { label: 'Times Played', value: stats.gamesPlayed }
         ];
-
+    
         return `
-            <div class="game-stat-item">
-                <div class="game-name">${game}</div>
-                <div class="game-stats">
-                    ${statItems.map(item => 
-                        `<span>${item.label}: ${utils.format.formatNumber(item.value)}</span>`
-                    ).join('')}
+            <div class="game-stat-card">
+                <div class="game-stat-header">
+                    <h4>${game}</h4>
+                </div>
+                <div class="game-stat-content">
+                    ${statRows.map(row => `
+                        <div class="stat-row">
+                            <span class="label">${row.label}</span>
+                            <span class="value">${utils.format.formatNumber(row.value)}</span>
+                        </div>
+                    `).join('')}
                 </div>
             </div>
         `;
@@ -352,15 +383,16 @@ class PlayerStatsManager {
      * @returns {string} HTML content
      */
     renderTournamentHistory() {
-        const headers = ['Tournament', 'Team', 'Position', 'Total Score', 'Games'];
+        const headers = ['Tournament', 'Team', 'Position', 'Total Score', 'Games', 'Type'];
         const rows = this.playerStats.tournaments.map(tournament => [
             `<a href="tournaments.html?tournament=${encodeURIComponent(tournament.name)}">${tournament.name}</a>`,
             `<a href="team-stats.html?team=${encodeURIComponent(tournament.team)}">${tournament.team}</a>`,
             `#${tournament.position}`,
             utils.format.formatNumber(tournament.total),
-            Object.keys(tournament.games).length
+            Object.keys(tournament.games).length,
+            tournament.canon ? 'Canon' : '<span class="non-canon">Non-Canon</span>'
         ]);
-
+    
         return `
             <div class="tournament-history">
                 <h3>Tournament History</h3>
@@ -396,9 +428,15 @@ class PlayerStatsManager {
             <div class="tournament-detail-card">
                 <div class="tournament-detail-header">
                     <h4>${tournament.name}</h4>
-                    <span class="tournament-score">
-                        Total Score: ${utils.format.formatNumber(tournament.total)}
-                    </span>
+                    <div class="tournament-header-details">
+                        <span class="tournament-score">
+                            Total Score: ${utils.format.formatNumber(tournament.total)}
+                        </span>
+                        <span class="header-divider">|</span>
+                        <span class="tournament-type ${tournament.canon ? '' : 'non-canon'}">
+                            ${tournament.canon ? 'Canon' : 'Non-Canon'}
+                        </span>
+                    </div>
                 </div>
                 ${this.renderDetailedTournamentStats(tournament)}
             </div>
@@ -451,10 +489,10 @@ class PlayerStatsManager {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
-utils.theme.initialize();
-document.getElementById('modeToggle')?.addEventListener('click', () => utils.theme.toggle());
-const playerStatsManager = new PlayerStatsManager();
-playerStatsManager.initialize();
+    utils.theme.initialize();
+    document.getElementById('modeToggle')?.addEventListener('click', () => utils.theme.toggle());
+    const playerStatsManager = new PlayerStatsManager();
+    playerStatsManager.initialize();
 });
 
 export default PlayerStatsManager;

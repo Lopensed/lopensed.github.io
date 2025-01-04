@@ -177,7 +177,6 @@ class NavigationManager {
      * @param {Map} playerMap Player map for combining results
      */
     searchTournament(tournamentName, tournament, searchTerm, results, playerMap) {
-        // Search tournament name
         if (tournamentName.toLowerCase().includes(searchTerm)) {
             results.push({
                 type: 'Tournament',
@@ -189,7 +188,6 @@ class NavigationManager {
             });
         }
 
-        // Search teams and players
         tournament.teams.forEach(team => {
             this.searchTeamAndPlayers(team, tournamentName, searchTerm, results, playerMap);
         });
@@ -204,7 +202,6 @@ class NavigationManager {
      * @param {Map} playerMap Player map
      */
     searchTeamAndPlayers(team, tournament, searchTerm, results, playerMap) {
-        // Search team name
         if (team.name.toLowerCase().includes(searchTerm)) {
             results.push({
                 type: 'Team',
@@ -216,7 +213,6 @@ class NavigationManager {
             });
         }
 
-        // Search players
         team.players.forEach(player => {
             const playerNames = Array.isArray(player.name) ? player.name : [player.name];
             playerNames.forEach(name => {

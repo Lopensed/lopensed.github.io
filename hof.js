@@ -55,7 +55,6 @@ class HallOfFameManager {
      * Calculate game-specific records
      */
     calculateGameRecords() {
-        // Initialize game records
         const games = new Set();
         Object.values(this.statsData.tournaments).forEach(tournament => {
             Object.keys(tournament.games).forEach(game => games.add(game));
@@ -79,7 +78,6 @@ class HallOfFameManager {
             });
         });
 
-        // Process game records
         Object.entries(this.statsData.tournaments).forEach(([tournamentName, tournament]) => {
             this.processGameRecordsForTournament(tournamentName, tournament);
         });
@@ -91,6 +89,8 @@ class HallOfFameManager {
      * @param {Object} tournament Tournament data
      */
     processGameRecordsForTournament(tournamentName, tournament) {
+        if (tournament.canon === false) return;
+    
         tournament.teams.forEach(team => {
             team.players.forEach(player => {
                 Object.entries(tournament.games).forEach(([game, gameConfig]) => {
@@ -106,7 +106,6 @@ class HallOfFameManager {
             });
         });
     }
-
     /**
      * Update game records with new scores
      * @param {string} game Game name
@@ -121,7 +120,6 @@ class HallOfFameManager {
         const minScore = Math.min(...scores);
         const avgScore = utils.score.calculateAverageScore(scores);
 
-        // Update highest unmultiplied score
         if (maxScore > gameRecord.highest.unmultiplied.score) {
             gameRecord.highest.unmultiplied = {
                 score: maxScore,
@@ -130,7 +128,6 @@ class HallOfFameManager {
             };
         }
 
-        // Update highest multiplied score
         const maxMultiplied = maxScore * multiplier;
         if (maxMultiplied > gameRecord.highest.multiplied.score) {
             gameRecord.highest.multiplied = {
@@ -140,7 +137,6 @@ class HallOfFameManager {
             };
         }
 
-        // Update lowest unmultiplied score
         if (minScore < gameRecord.lowest.unmultiplied.score) {
             gameRecord.lowest.unmultiplied = {
                 score: minScore,
@@ -149,7 +145,6 @@ class HallOfFameManager {
             };
         }
 
-        // Update lowest multiplied score
         const minMultiplied = minScore * multiplier;
         if (minMultiplied < gameRecord.lowest.multiplied.score) {
             gameRecord.lowest.multiplied = {
@@ -159,7 +154,6 @@ class HallOfFameManager {
             };
         }
 
-        // Update average scores
         if (avgScore > gameRecord.averages.highest.value) {
             gameRecord.averages.highest = {
                 value: avgScore,
@@ -209,34 +203,35 @@ class HallOfFameManager {
      */
     calculatePlayerRecords() {
         const playerStats = new Map();
-
+    
         Object.entries(this.statsData.tournaments).forEach(([tournamentName, tournament]) => {
-            tournament.teams.forEach(team => {
-                const isWinningTeam = team.name === tournament.winners;
-                
-                team.players.forEach(player => {
-                    const playerName = Array.isArray(player.name) ? player.name[0] : player.name;
+            if (tournament.canon !== false) { 
+                tournament.teams.forEach(team => {
+                    const isWinningTeam = team.name === tournament.winners;
                     
-                    if (!playerStats.has(playerName)) {
-                        playerStats.set(playerName, {
-                            wins: 0,
-                            participations: 0,
-                            totalScore: 0,
-                            gamesPlayed: 0,
-                            firstPlaces: 0,
-                            tournaments: new Set()
-                        });
-                    }
-
-                    const stats = playerStats.get(playerName);
-                    this.updatePlayerStats(stats, player, tournament, isWinningTeam, tournamentName);
+                    team.players.forEach(player => {
+                        const playerName = Array.isArray(player.name) ? player.name[0] : player.name;
+                        
+                        if (!playerStats.has(playerName)) {
+                            playerStats.set(playerName, {
+                                wins: 0,
+                                participations: 0,
+                                totalScore: 0,
+                                gamesPlayed: 0,
+                                firstPlaces: 0,
+                                tournaments: new Set()
+                            });
+                        }
+    
+                        const stats = playerStats.get(playerName);
+                        this.updatePlayerStats(stats, player, tournament, isWinningTeam, tournamentName);
+                    });
                 });
-            });
+            }
         });
-
+    
         this.records.playerRecords = this.compilePlayerRecords(playerStats);
     }
-
     /**
      * Update player statistics
      * @param {Object} stats Player stats object

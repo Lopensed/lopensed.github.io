@@ -6,11 +6,9 @@
     <meta name="description" content="View records and achievements in Floggerz tournaments">
     <meta name="theme-color" content="#161b22">
     <meta name="robots" content="index, follow">
-    
     <title>Floggerz Stats - Hall of Fame</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    
     <!-- PWA support -->
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +16,6 @@
 </head>
 <body>
     <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
-
     <header class="main-header" role="banner">
         <div class="header-content">
             <h1 class="site-title">
@@ -31,15 +28,11 @@
                     <li><a href="navigation.html">Navigation</a></li>
                 </ul>
             </nav>
-            <button id="modeToggle" 
-                    class="mode-toggle" 
-                    aria-label="Toggle color theme"
-                    data-current-mode="dark">
+            <button id="modeToggle" class="mode-toggle" aria-label="Toggle color theme" data-current-mode="dark">
                 <span class="mode-toggle-text">Switch to Light Mode</span>
             </button>
         </div>
     </header>
-
     <main id="main-content" class="content-container" role="main">
         <section id="hofStats" class="hof-section">
             <section id="individual-records" class="record-section" aria-labelledby="individual-records-title">
@@ -48,45 +41,30 @@
                 <div id="lowest-scores" class="records-grid" role="list"></div>
                 <div id="averages" class="records-grid" role="list"></div>
             </section>
-
             <section id="tournament-records" class="record-section" aria-labelledby="tournament-records-title">
                 <h2 id="tournament-records-title">Tournament Records</h2>
                 <div id="tournament-winners" class="records-grid" role="list"></div>
             </section>
-
             <section id="player-records" class="record-section" aria-labelledby="player-records-title">
                 <h2 id="player-records-title">Player Records</h2>
                 <div id="player-stats" class="records-grid" role="list"></div>
             </section>
-
             <section id="team-records" class="record-section" aria-labelledby="team-records-title">
                 <h2 id="team-records-title">Team Records</h2>
                 <div id="team-stats" class="records-grid" role="list"></div>
             </section>
         </section>
-
-        <div id="loadingIndicator" 
-             class="loading-indicator" 
-             role="status" 
-             aria-live="polite" 
-             hidden>
+        <div id="loadingIndicator" class="loading-indicator" role="status" aria-live="polite" hidden>
             <div class="loading-spinner" aria-hidden="true"></div>
             <span class="loading-text">Loading Hall of Fame data...</span>
         </div>
     </main>
-
     <footer class="main-footer" role="contentinfo">
         <div class="footer-content">
-            <p>Made by: <a href="https://github.com/Lopensed" 
-                          target="_blank" 
-                          rel="noopener noreferrer">Lopensed</a></p>
-            <p><a href="https://discord.gg/6QvTnRUxnv" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  aria-label="Join our Discord server">Join our Discord</a></p>
+            <p>Made by: <a href="https://github.com/Lopensed" target="_blank" rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" target="_blank" rel="noopener noreferrer" aria-label="Join our Discord server">Join our Discord</a></p>
         </div>
     </footer>
-
     <!-- Templates -->
     <template id="recordCardTemplate">
         <div class="record-card" role="listitem">
@@ -96,7 +74,6 @@
             <div class="record-details"></div>
         </div>
     </template>
-
     <script src="utils.js" type="module"></script>
     <script src="hof.js" type="module"></script>
 </body>

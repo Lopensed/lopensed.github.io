@@ -6,11 +6,9 @@
     <meta name="description" content="View detailed team statistics and performance history">
     <meta name="theme-color" content="#161b22">
     <meta name="robots" content="index, follow">
-    
     <title>Floggerz Stats - Team Statistics</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    
     <!-- PWA support -->
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +16,6 @@
 </head>
 <body>
     <a href="#main-content" class="skip-link visually-hidden">Skip to main content</a>
-
     <header class="main-header" role="banner">
         <div class="header-content">
             <h1 class="site-title">
@@ -31,10 +28,7 @@
                     <li><a href="navigation.html">Navigation</a></li>
                 </ul>
             </nav>
-            <button id="modeToggle" 
-                    class="mode-toggle" 
-                    aria-label="Toggle color theme"
-                    data-current-mode="dark">
+            <button id="modeToggle" class="mode-toggle" aria-label="Toggle color theme" data-current-mode="dark">
                 <span class="mode-toggle-text">Switch to Light Mode</span>
             </button>
         </div>
@@ -46,9 +40,7 @@
         </section>
 
         <!-- Performance Summary -->
-        <section id="teamPerformance" 
-                 class="team-performance-section hidden" 
-                 aria-label="Team Performance Summary">
+        <section id="teamPerformance" class="team-performance-section hidden" aria-label="Team Performance Summary">
             <h2>Team Performance Summary</h2>
             <div class="stats-grid" role="list">
                 <!-- Will be populated dynamically -->
@@ -56,9 +48,7 @@
         </section>
 
         <!-- Player Performance -->
-        <section id="playerPerformance" 
-                 class="player-performance-section hidden" 
-                 aria-label="Player Performances">
+        <section id="playerPerformance" class="player-performance-section hidden" aria-label="Player Performances">
             <h2>Player Performances</h2>
             <div class="table-container">
                 <!-- Will be populated dynamically -->
@@ -66,9 +56,7 @@
         </section>
 
         <!-- Game Breakdown -->
-        <section id="gameBreakdown" 
-                 class="game-breakdown-section hidden" 
-                 aria-label="Game-by-Game Breakdown">
+        <section id="gameBreakdown" class="game-breakdown-section hidden" aria-label="Game-by-Game Breakdown">
             <h2>Game-by-Game Breakdown</h2>
             <div class="table-container">
                 <!-- Will be populated dynamically -->
@@ -76,11 +64,7 @@
         </section>
 
         <!-- Loading State -->
-        <div id="loadingIndicator" 
-             class="loading-indicator" 
-             role="status" 
-             aria-live="polite" 
-             hidden>
+        <div id="loadingIndicator" class="loading-indicator" role="status" aria-live="polite" hidden>
             <div class="loading-spinner" aria-hidden="true"></div>
             <span class="loading-text">Loading team statistics...</span>
         </div>
@@ -88,13 +72,8 @@
 
     <footer class="main-footer" role="contentinfo">
         <div class="footer-content">
-            <p>Made by: <a href="https://github.com/Lopensed" 
-                          target="_blank" 
-                          rel="noopener noreferrer">Lopensed</a></p>
-            <p><a href="https://discord.gg/6QvTnRUxnv" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  aria-label="Join our Discord server">Join our Discord</a></p>
+            <p>Made by: <a href="https://github.com/Lopensed" target="_blank" rel="noopener noreferrer">Lopensed</a></p>
+            <p><a href="https://discord.gg/6QvTnRUxnv" target="_blank" rel="noopener noreferrer" aria-label="Join our Discord server">Join our Discord</a></p>
         </div>
     </footer>
 

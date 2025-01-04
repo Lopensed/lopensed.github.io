@@ -117,5 +117,14 @@ Links player names to their:
 }
 ```
 
+### Canon vs Non-Canon Events
+Tournament events are marked as either canon or non-canon in the tournament data. Only canon events should be counted towards overall statistics, records, and rankings. Non-canon events are stored for historical purposes but must be excluded from:
 
+- Global leaderboards (unless explicitly showing all events)
+- Player statistics and averages
+- Team performance metrics
+- Hall of Fame records
+- Achievement calculations
+
+Non-canon events should be clearly marked in the UI to distinguish them from canon events. When displaying tournament history, non-canon events should be included but visually differentiated and not factored into aggregate statistics.
 

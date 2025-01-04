@@ -69,6 +69,10 @@ class LeaderboardManager {
     initializeFilters() {
         this.initializeTournamentSelect();
         this.initializeGameSelect(this.filters.tournament);
+        const canonToggle = document.getElementById('canonToggle');
+        if (canonToggle) {
+            canonToggle.addEventListener('change', () => this.handleFilterChange());
+        }
     }
 
     /**
@@ -113,20 +117,34 @@ class LeaderboardManager {
     }
 
     /**
-     * Handle filter changes and update leaderboard display
-     * Updates filters based on user selection, refreshes game select options based on tournament selection,
-     * maintains valid game selections across view changes, and updates the leaderboard display
+    * Handle filter change event
+    * Updates filter values and refreshes leaderboard
+    * @param {Event} e Change event
      */
     handleFilterChange() {
         const prevGame = this.filters.game;
         
+        const selectedTournament = document.getElementById('tournamentSelect')?.value || 'All';
+        const selectedCategory = document.getElementById('categorySelect')?.value || 'player';
+        const selectedGame = document.getElementById('gameSelect')?.value || 'All';
+        const selectedSortBy = document.getElementById('sortSelect')?.value || 'score_high_to_low';
+        let selectedCanon = document.getElementById('canonToggle')?.value || 'canon';
+    
+        if (selectedTournament !== 'All') {
+            const tournamentData = this.statsData.tournaments[selectedTournament];
+            if (tournamentData) {
+                selectedCanon = tournamentData.canon ? 'canon' : 'all';
+            }
+        }
+    
         this.filters = {
-            tournament: document.getElementById('tournamentSelect')?.value || 'All',
-            category: document.getElementById('categorySelect')?.value || 'player',
-            game: document.getElementById('gameSelect')?.value || 'All',
-            sortBy: document.getElementById('sortSelect')?.value || 'score_high_to_low'
+            tournament: selectedTournament,
+            category: selectedCategory,
+            game: selectedGame,
+            sortBy: selectedSortBy,
+            canon: selectedCanon
         };
-
+    
         const gameSelect = document.getElementById('gameSelect');
         if (gameSelect) {
             if (this.filters.tournament === 'All') {
@@ -141,14 +159,14 @@ class LeaderboardManager {
             } else {
                 this.initializeGameSelect(this.filters.tournament);
             }
-
+    
             const options = Array.from(gameSelect.options);
             const matchingOption = options.find(option => option.value === this.filters.game);
             if (matchingOption) {
                 matchingOption.selected = true;
             }
         }
-
+    
         this.updateLeaderboard();
     }
 
@@ -160,10 +178,15 @@ class LeaderboardManager {
         const tournaments = this.filters.tournament === 'All' 
             ? Object.keys(this.statsData.tournaments) 
             : [this.filters.tournament];
-
+    
+        const filteredTournaments = tournaments.filter(tournament => {
+            const tournamentData = this.statsData.tournaments[tournament];
+            return this.filters.canon === 'all' || tournamentData.canon !== false;
+        });
+    
         return this.filters.category === 'team' 
-            ? this.processTeamData(tournaments)
-            : this.processPlayerData(tournaments);
+            ? this.processTeamData(filteredTournaments)
+            : this.processPlayerData(filteredTournaments);
     }
 
     /**
