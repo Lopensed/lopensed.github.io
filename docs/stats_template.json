@@ -2,6 +2,7 @@
   "tournaments": {
     "TournamentName": {
       "winners": "Team Name",
+      "canon": true, 
       "games": {
         "Rocket Spleef Rush": {
           "order": 1,
@@ -30,7 +31,7 @@
       },
       "teams": [
         {
-          "name": "Team Name",
+          "name": "Team1",
           "players": [
             {
               "name": "Player1",
@@ -40,7 +41,8 @@
                 "TGTTOS": [],
                 "HITW": [],
                 "Sky Battle": [],
-                "Battle Box": []
+                "Battle Box": [],
+                "Bingo": []
               }
             },
             {
@@ -51,7 +53,95 @@
                 "TGTTOS": [],
                 "HITW": [],
                 "Sky Battle": [],
-                "Battle Box": []
+                "Battle Box": [],
+                "Bingo": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team2",
+          "players": [
+            {
+              "name": "Player3",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
+              }
+            },
+            {
+              "name": "Player4",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team3",
+          "players": [
+            {
+              "name": "Player5",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
+              }
+            },
+            {
+              "name": "Player6",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team4",
+          "players": [
+            {
+              "name": "Player7",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
+              }
+            },
+            {
+              "name": "Player8",
+              "scores": {
+                "Rocket Spleef Rush": [],
+                "PKWS": [],
+                "TGTTOS": [],
+                "HITW": [],
+                "Sky Battle": [],
+                "Battle Box": [],
+                "Bingo": []
               }
             }
           ]
